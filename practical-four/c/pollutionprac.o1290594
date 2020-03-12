@@ -1,0 +1,95 @@
+Number Processes in X=36
+Global size in X=128, Global size in Y=1024
+
+Iteration= 0 Relative Norm=1.000000e+00
+Iteration= 100 Relative Norm=2.636190e-02
+Iteration= 200 Relative Norm=1.526084e-02
+Iteration= 300 Relative Norm=1.100016e-02
+Iteration= 400 Relative Norm=8.681270e-03
+Iteration= 500 Relative Norm=7.202053e-03
+Iteration= 600 Relative Norm=6.167325e-03
+Iteration= 700 Relative Norm=5.398330e-03
+Iteration= 800 Relative Norm=4.801751e-03
+Iteration= 900 Relative Norm=4.323847e-03
+Iteration= 1000 Relative Norm=3.931365e-03
+Iteration= 1100 Relative Norm=3.602568e-03
+Iteration= 1200 Relative Norm=3.322615e-03
+Iteration= 1300 Relative Norm=3.081011e-03
+
+Terminated on 1337 iterations, Relative Norm=2.999738e-03, Total time=1.715670e-01 seconds
+Number Processes in X=36
+Global size in X=128, Global size in Y=1024
+
+Iteration= 0 Relative Norm=1.000000e+00
+Iteration= 100 Relative Norm=2.636190e-02
+Iteration= 200 Relative Norm=1.526084e-02
+Iteration= 300 Relative Norm=1.100016e-02
+Iteration= 400 Relative Norm=8.681270e-03
+Iteration= 500 Relative Norm=7.202053e-03
+Iteration= 600 Relative Norm=6.167325e-03
+Iteration= 700 Relative Norm=5.398330e-03
+Iteration= 800 Relative Norm=4.801751e-03
+Iteration= 900 Relative Norm=4.323847e-03
+Iteration= 1000 Relative Norm=3.931365e-03
+Iteration= 1100 Relative Norm=3.602568e-03
+Iteration= 1200 Relative Norm=3.322615e-03
+Iteration= 1300 Relative Norm=3.081011e-03
+
+Terminated on 1337 iterations, Relative Norm=2.999738e-03, Total time=1.698310e-01 seconds
+Number Processes in X=36
+Global size in X=128, Global size in Y=1024
+
+Iteration= 0 Relative Norm=1.000000e+00
+Iteration= 100 Relative Norm=2.636190e-02
+Iteration= 200 Relative Norm=1.526084e-02
+Iteration= 300 Relative Norm=1.100016e-02
+Iteration= 400 Relative Norm=8.681270e-03
+Iteration= 500 Relative Norm=7.202053e-03
+Iteration= 600 Relative Norm=6.167325e-03
+Iteration= 700 Relative Norm=5.398330e-03
+Iteration= 800 Relative Norm=4.801751e-03
+Iteration= 900 Relative Norm=4.323847e-03
+Iteration= 1000 Relative Norm=3.931365e-03
+Iteration= 1100 Relative Norm=3.602568e-03
+Iteration= 1200 Relative Norm=3.322615e-03
+Iteration= 1300 Relative Norm=3.081011e-03
+
+Terminated on 1337 iterations, Relative Norm=2.999738e-03, Total time=1.538451e-01 seconds
+Number Processes in X=36
+Global size in X=128, Global size in Y=1024
+
+Iteration= 0 Relative Norm=1.000000e+00
+Iteration= 100 Relative Norm=2.636190e-02
+Iteration= 200 Relative Norm=1.526084e-02
+Iteration= 300 Relative Norm=1.100016e-02
+Iteration= 400 Relative Norm=8.681270e-03
+Iteration= 500 Relative Norm=7.202053e-03
+Iteration= 600 Relative Norm=6.167325e-03
+Iteration= 700 Relative Norm=5.398330e-03
+Iteration= 800 Relative Norm=4.801751e-03
+Iteration= 900 Relative Norm=4.323847e-03
+Iteration= 1000 Relative Norm=3.931365e-03
+Iteration= 1100 Relative Norm=3.602568e-03
+Iteration= 1200 Relative Norm=3.322615e-03
+Iteration= 1300 Relative Norm=3.081011e-03
+
+Terminated on 1337 iterations, Relative Norm=2.999738e-03, Total time=1.611941e-01 seconds
+Number Processes in X=36
+Global size in X=128, Global size in Y=1024
+
+Iteration= 0 Relative Norm=1.000000e+00
+Iteration= 100 Relative Norm=2.636190e-02
+Iteration= 200 Relative Norm=1.526084e-02
+Iteration= 300 Relative Norm=1.100016e-02
+Iteration= 400 Relative Norm=8.681270e-03
+Iteration= 500 Relative Norm=7.202053e-03
+Iteration= 600 Relative Norm=6.167325e-03
+Iteration= 700 Relative Norm=5.398330e-03
+Iteration= 800 Relative Norm=4.801751e-03
+Iteration= 900 Relative Norm=4.323847e-03
+Iteration= 1000 Relative Norm=3.931365e-03
+Iteration= 1100 Relative Norm=3.602568e-03
+Iteration= 1200 Relative Norm=3.322615e-03
+Iteration= 1300 Relative Norm=3.081011e-03
+
+Terminated on 1337 iterations, Relative Norm=2.999738e-03, Total time=1.604919e-01 seconds

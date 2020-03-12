@@ -1,0 +1,76 @@
+Problem size of 100 elements, serial threshold of 10
+Now I am 2 !
+Unsorted
+0.515 0.239 0.485 0.324 0.490 0.136 0.013 0.557 0.780 0.252 0.761 0.422 0.335 0.754 0.202 0.185 0.632 0.933 0.247 0.493 0.494 0.773 0.254 0.074 0.396 0.323 0.394 0.278 0.826 0.704 0.125 0.111 0.279 0.983 0.850 0.848 0.586 0.832 0.200 0.360 0.158 0.666 0.382 0.409 0.060 0.636 0.442 0.073 0.691 0.157 0.049 0.406 0.723 0.551 0.297 0.225 0.990 0.100 0.173 0.567 0.491 0.965 0.883 0.011 0.122 0.464 0.175 0.733 0.083 0.415 0.490 0.641 0.243 0.011 0.920 0.611 0.589 0.125 0.128 0.844 0.899 0.447 0.522 0.695 0.688 0.390 0.070 0.120 0.963 0.601 0.507 0.414 0.381 0.894 0.533 0.982 0.818 0.270 0.975 0.338 
+Now I am 1 !
+Now masterStatus is 1 
+Now masterStatus is 1 
+Now masterStatus is 1 
+Now I am 1 !
+Now masterStatus is 1 
+Now masterStatus is 1 
+Now I am 1 !
+Now I am 1 !
+Now I am 1 !
+Now masterStatus is 1 
+Now masterStatus is 1 
+Now masterStatus is 1 
+Now masterStatus is 1 
+Now masterStatus is 1 
+Now I am 1 !
+Now masterStatus is 1 
+Now I am 1 !
+Now I am 1 !
+Now I am 1 !
+Now masterStatus is 1 
+Now masterStatus is 1 
+Now masterStatus is 1 
+Now masterStatus is 1 
+Now masterStatus is 1 
+Now masterStatus is 1 
+Now masterStatus is 1 
+Now masterStatus is 1 
+Now I am 1 !
+Now I am 1 !
+Now I am 1 !
+Now masterStatus is 1 
+Now masterStatus is 1 
+Now masterStatus is 1 
+Now masterStatus is 1 
+Now masterStatus is 1 
+Now masterStatus is 1 
+Now masterStatus is 1 
+Now masterStatus is 1 
+Now masterStatus is 1 
+Now masterStatus is 1 
+Now I am 1 !
+Now I am 1 !
+Now I am 1 !
+Now masterStatus is 0 
+
+Sorted
+0.011 0.011 0.013 0.049 0.060 0.070 0.073 0.074 0.083 0.100 0.111 0.120 0.122 0.125 0.125 0.128 0.136 0.157 0.158 0.173 0.175 0.185 0.200 0.202 0.225 0.239 0.243 0.247 0.252 0.254 0.270 0.278 0.279 0.297 0.323 0.324 0.335 0.338 0.360 0.381 0.382 0.390 0.394 0.396 0.406 0.409 0.414 0.415 0.422 0.442 0.447 0.464 0.485 0.490 0.490 0.491 0.493 0.494 0.507 0.515 0.522 0.533 0.551 0.557 0.567 0.586 0.589 0.601 0.611 0.632 0.636 0.641 0.666 0.688 0.691 0.695 0.704 0.723 0.733 0.754 0.761 0.773 0.780 0.818 0.826 0.832 0.844 0.848 0.850 0.883 0.894 0.899 0.920 0.933 0.963 0.965 0.975 0.982 0.983 0.990 
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Parallel mergesort completed in 0.003059 seconds
+Task start timings: 0.000008 (s) avg, 0.000004 (s) min, 0.000014 (s) max
+Computation timings : 0.000004 (s) avg, 0.000003 (s) min, 0.000011 (s) max
+Communication timings : 0.000043 (s) avg, 0.000007 (s) min, 0.000125 (s) max

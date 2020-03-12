@@ -1,12 +1,12 @@
 #!/bin/bash --login
 
 # PBS job options (name, compute nodes, job time)
-#PBS -N pollutionprac
+#PBS -N mergesort
 #PBS -l select=1:ncpus=36
 #PBS -l place=scatter:excl
-#PBS -l walltime=00:01:00
+#PBS -l walltime=00:20:00
 
-#PBS -A d171-s1951167
+#PBS -A d171
 
 # Change to the directory that the job was submitted from
 cd $PBS_O_WORKDIR
@@ -14,7 +14,6 @@ cd $PBS_O_WORKDIR
 # Load any required modules
 module load mpt
 module load intel-compilers-18
-module load intel-mpi-18
 
 # Set the number of threads to 1
 #   This prevents any threaded system libraries from automatically
@@ -22,9 +21,4 @@ module load intel-mpi-18
 export OMP_NUM_THREADS=1
 
 # Launch the parallel job
-# mpiexec_mpt -ppn 36 -n 36 ./pollution 128 1024 3e-3 0
-for i in 1 2 3 4 5
-do
-  # mpirun -ppn 36 -n 36 ./pollution 128 1024 3e-3 0
-  mpiexec -ppn 36 -n 36 ./pollution 128 1024 3e-3 0
-done
+mpiexec_mpt -ppn 36 -n 36 ./mergesort 100 10 1

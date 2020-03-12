@@ -1,0 +1,82 @@
+I am here !
+I am here !
+I am here !
+I am here !
+I am here !
+I am here !
+I am here !
+I am here !
+I am here !
+I am here !
+I am here !
+I am here !
+I am here !
+I am here !
+I am here !
+I am here !
+I am here !
+I am here !
+I am here !
+I am here !
+I am here !
+I am here !
+I am here !
+I am here !
+I am here !
+I am here !
+I am here !
+I am here !
+I am here !
+Problem size of 100 elements, serial threshold of 10
+I am here !
+I am here !
+I am here !
+I am here !
+Now I am 2 !
+I am here !
+I am here !
+Unsorted
+I am here !
+0.750 0.151 0.190 0.267 0.242 0.396 0.340 0.195 0.487 0.103 0.856 0.187 0.985 0.742 0.394 0.147 0.284 0.184 0.780 0.220 0.897 0.155 0.453 0.272 0.799 0.431 0.934 0.995 0.978 0.131 0.525 0.804 0.443 0.759 0.872 0.235 0.078 0.597 0.175 0.882 0.482 0.498 0.885 0.643 0.773 0.530 0.855 0.783 0.648 0.290 0.232 0.748 0.552 0.306 0.263 0.821 0.828 0.984 0.558 0.157 0.723 0.938 0.678 0.823 0.996 0.847 0.244 0.900 0.084 0.352 0.053 0.374 0.791 0.572 0.763 0.194 0.662 0.358 0.005 0.122 0.811 0.430 0.143 0.378 0.553 0.858 0.182 0.971 0.086 0.749 0.493 0.061 0.129 0.459 0.081 0.091 0.590 0.259 0.034 0.319 
+Now I am 1 !
+Now I am 1 !
+Now I am 1 !
+Now I am 1 !
+Now I am 1 !
+Now I am 1 !
+Now I am 1 !
+Now I am 1 !
+Now I am 1 !
+Now I am 1 !
+Now I am 1 !
+Now I am 1 !
+
+Sorted
+0.005 0.034 0.053 0.061 0.078 0.081 0.084 0.086 0.091 0.103 0.122 0.129 0.131 0.143 0.147 0.151 0.155 0.157 0.175 0.182 0.184 0.187 0.190 0.194 0.195 0.220 0.232 0.235 0.242 0.244 0.259 0.263 0.267 0.272 0.284 0.290 0.306 0.319 0.340 0.352 0.358 0.374 0.378 0.394 0.396 0.430 0.431 0.443 0.453 0.459 0.482 0.487 0.493 0.498 0.525 0.530 0.552 0.553 0.558 0.572 0.590 0.597 0.643 0.648 0.662 0.678 0.723 0.742 0.748 0.749 0.750 0.759 0.763 0.773 0.780 0.783 0.791 0.799 0.804 0.811 0.821 0.823 0.828 0.847 0.855 0.856 0.858 0.872 0.882 0.885 0.897 0.900 0.934 0.938 0.971 0.978 0.984 0.985 0.995 0.996 
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Now I am 0 !
+Parallel mergesort completed in 0.002780 seconds
+Task start timings: 0.000010 (s) avg, 0.000006 (s) min, 0.000021 (s) max
+Computation timings : 0.000005 (s) avg, 0.000003 (s) min, 0.000008 (s) max
+Communication timings : 0.000037 (s) avg, 0.000007 (s) min, 0.000112 (s) max

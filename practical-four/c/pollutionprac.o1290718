@@ -1,0 +1,55 @@
+Number Processes in X=36
+Global size in X=128, Global size in Y=1024
+
+Iteration= 0 Relative Norm=1.000000e+00
+Iteration= 100 Relative Norm=1.342560e-02
+Iteration= 200 Relative Norm=7.614499e-03
+Iteration= 300 Relative Norm=5.389131e-03
+Iteration= 400 Relative Norm=4.179108e-03
+Iteration= 500 Relative Norm=3.407305e-03
+
+Terminated on 573 iterations, Relative Norm=2.996602e-03, Total time=8.802509e-02 seconds
+Number Processes in X=36
+Global size in X=128, Global size in Y=1024
+
+Iteration= 0 Relative Norm=1.000000e+00
+Iteration= 100 Relative Norm=1.342560e-02
+Iteration= 200 Relative Norm=7.614499e-03
+Iteration= 300 Relative Norm=5.389131e-03
+Iteration= 400 Relative Norm=4.179108e-03
+Iteration= 500 Relative Norm=3.407305e-03
+
+Terminated on 573 iterations, Relative Norm=2.996602e-03, Total time=6.255198e-02 seconds
+Number Processes in X=36
+Global size in X=128, Global size in Y=1024
+
+Iteration= 0 Relative Norm=1.000000e+00
+Iteration= 100 Relative Norm=1.342560e-02
+Iteration= 200 Relative Norm=7.614499e-03
+Iteration= 300 Relative Norm=5.389131e-03
+Iteration= 400 Relative Norm=4.179108e-03
+Iteration= 500 Relative Norm=3.407305e-03
+
+Terminated on 573 iterations, Relative Norm=2.996602e-03, Total time=6.288099e-02 seconds
+Number Processes in X=36
+Global size in X=128, Global size in Y=1024
+
+Iteration= 0 Relative Norm=1.000000e+00
+Iteration= 100 Relative Norm=1.342560e-02
+Iteration= 200 Relative Norm=7.614499e-03
+Iteration= 300 Relative Norm=5.389131e-03
+Iteration= 400 Relative Norm=4.179108e-03
+Iteration= 500 Relative Norm=3.407305e-03
+
+Terminated on 573 iterations, Relative Norm=2.996602e-03, Total time=7.061315e-02 seconds
+Number Processes in X=36
+Global size in X=128, Global size in Y=1024
+
+Iteration= 0 Relative Norm=1.000000e+00
+Iteration= 100 Relative Norm=1.342560e-02
+Iteration= 200 Relative Norm=7.614499e-03
+Iteration= 300 Relative Norm=5.389131e-03
+Iteration= 400 Relative Norm=4.179108e-03
+Iteration= 500 Relative Norm=3.407305e-03
+
+Terminated on 573 iterations, Relative Norm=2.996602e-03, Total time=6.251097e-02 seconds

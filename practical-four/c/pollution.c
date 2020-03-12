@@ -21,7 +21,8 @@
 static void initialise(double*, double*, int, int);
 static void jacobi_solver(int, int, int, double*, double*);
 static void jacobi_sor_solver(int, int, int, double*, double*);
-double cal_norm(int , int , double* , int );
+static double cal_norm(int , int , double* , int );
+static void invoke(void (*fn)(int, int, int, double*, double*), int a, int b, int c, double* d, double* e);
 
 int main(int argc, char* argv[]) {
   int size, myrank, nx, ny, max_its;
@@ -120,7 +121,8 @@ int main(int argc, char* argv[]) {
     if (max_its > 0 && k >= max_its) break;
 
     // Call the Jacobi iteration function
-    jacobi_solver(local_nx, ny, mem_size_y, u_k, u_kp1);
+    // jacobi_solver(local_nx, ny, mem_size_y, u_k, u_kp1);
+    invoke(jacobi_sor_solver, local_nx, ny, mem_size_y, u_k, u_kp1);
 
     // Swap data structures round for the next iteration
     temp = u_kp1;
@@ -200,7 +202,7 @@ static void initialise(double* u_k, double* u_kp1, int nx, int ny) {
   }
 }
 
-double cal_norm(int local_nx, int ny, double* u_k, int mem_size_y) {
+static double cal_norm(int local_nx, int ny, double* u_k, int mem_size_y) {
 	int i, j, k;
 	double tmpnorm = 0.0;
   for (j = 1; j <= local_nx; j++) {
@@ -214,4 +216,8 @@ double cal_norm(int local_nx, int ny, double* u_k, int mem_size_y) {
     }
   }
 	return tmpnorm;
+}
+
+static void invoke(void (*fn)(int, int, int, double*, double*), int a, int b, int c, double* d, double* e) {
+  (*fn)(a, b, c, d, e);
 }
