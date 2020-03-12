@@ -107,8 +107,8 @@ int main(int argc, char* argv[]) {
 }
 
 void landcellWorkerCode(struct landcell *land, int id) {
-    int i, flag = 0, switch_update = 0, fullflag = 0;
-    MPI_Status status;
+    int i, switch_update = 0, fullflag = 0;
+
     MPI_Request req;
     land->id = id;
     land->populationInflux = 0;
@@ -122,38 +122,43 @@ void landcellWorkerCode(struct landcell *land, int id) {
     int workerStatus = 0;
     int months = 0;
     while (!workerStatus){
-        int count = 0;
+        int count = 0, flag = 0;
+        MPI_Status status;
         MPI_Iprobe(MPI_ANY_SOURCE, MPI_ANY_TAG, MPI_COMM_WORLD, &flag, &status);
         if (flag) { // means need to update!
             // Update
             MPI_Get_count(&status, MPI_INT, &count);
-            printf("Get count %d.\n", count);
+//            printf("Get count %d.\n", count);
             if (count == 1) { // 收到来自clock的信息，更新populationInflux和infectionLevel的值
-                MPI_Recv(&switch_update, 1, MPI_INT, LANDCELL+1, 0, MPI_COMM_WORLD, &status);
-                months++;
-                if (fullflag != 3) {
-                    land->thisMonthPopulation[fullflag] = land->thisMonthPopulation[3];
-                    land->thisMonthInfect[fullflag] = land->thisMonthInfect[3];
-                    land->thisMonthPopulation[3] = 0;
-                    land->thisMonthInfect[3] = 0;
-                    fullflag++;
-                    printf("Month %d update fullflag %d.\n", months, fullflag);
-                } else {
-                    for (i = 0; i < 3; i++) {
-                        land->thisMonthPopulation[i] = land->thisMonthPopulation[i+1];
-                        land->thisMonthInfect[i] = land->thisMonthInfect[i+1];
-                    }
-                    land->thisMonthPopulation[3] = 0;
-                    land->thisMonthInfect[3] = 0;
-                    printf("Month %d update fullflag %d.\n", months, fullflag);
-                }
-                for (i = 0; i < 3; i++) {
-                    land->populationInflux += land->thisMonthPopulation[i];
-                }
-                for (i = 0; i < 2; i++) {
-                    land->infectionLevel += land->thisMonthInfect[i];
-                }
-                printf("No. %d land receive update command %d.\n My population is %d, My infection is %d\n", land->id, switch_update, land->populationInflux, land->infectionLevel);
+//                MPI_Recv(&switch_update, 1, MPI_INT, status.MPI_SOURCE, 0, MPI_COMM_WORLD, &status);
+//                months++;
+//                land->populationInflux = 0;
+//                land->infectionLevel = 0;
+//                if (fullflag != 3) {
+//                    land->thisMonthPopulation[fullflag] = land->thisMonthPopulation[3];
+//                    land->thisMonthInfect[fullflag] = land->thisMonthInfect[3];
+//                    land->thisMonthPopulation[3] = 0;
+//                    land->thisMonthInfect[3] = 0;
+//                    printf("Hey in land %d fullflag %d.\n", land->id, land->thisMonthPopulation[fullflag]);
+//                    fullflag++;
+////                    printf("Month %d update fullflag %d.\n", months, fullflag);
+//                } else {
+//                    for (i = 0; i < 3; i++) {
+//                        land->thisMonthPopulation[i] = land->thisMonthPopulation[i+1];
+//                        land->thisMonthInfect[i] = land->thisMonthInfect[i+1];
+//                        printf("Heyyy in land %d fullflag %d.\n",land->id, land->thisMonthPopulation[i]);
+//                    }
+//                    land->thisMonthPopulation[3] = 0;
+//                    land->thisMonthInfect[3] = 0;
+////                    printf("Month %d update fullflag %d.\n", months, fullflag);
+//                }
+//                for (i = 0; i < 3; i++) {
+//                    land->populationInflux += land->thisMonthPopulation[i];
+//                }
+//                for (i = 0; i < 2; i++) {
+//                    land->infectionLevel += land->thisMonthInfect[i];
+//                }
+////                printf("No. %d land receive update command %d. My population is %d, My infection is %d\n", land->id, switch_update, land->populationInflux, land->infectionLevel);
 
             } else if (count == 2) { // 收到来自松鼠的信息，发送回自己的populationInflux和infectionLevel，并++
                 printf("Now is month %d~~~~~\n", months);
@@ -165,6 +170,7 @@ void landcellWorkerCode(struct landcell *land, int id) {
                 // 给松鼠发回去自己的populationInflux和infectionLevel Isend
                 if (squirrelInfo[1] == 1) land->thisMonthInfect[3]++;
                 land->thisMonthPopulation[3]++;
+                printf("land %d: %d, %d.\n", land->id, land->thisMonthInfect[3], land->thisMonthPopulation[3]);
             } else {
                 printf("I don't know what message is it ??? \n");
             }
@@ -235,7 +241,7 @@ void squirrelWorkerCode(struct squirrels *squirrel, int id) {
         MPI_Isend(info_squirrel, 2, MPI_INT, this_land_Pid, 0, MPI_COMM_WORLD, &req); //给landcell互通消息
         int info_landcell[2] = {0}; // 【0】是populationInflux，【1】是infectionLevel
         MPI_Recv(info_landcell, 2, MPI_INT, this_land_Pid, 0, MPI_COMM_WORLD, &status);
-//        printf("-Squirrel %d Receive information from landcell %d.\n", id, this_land_Pid);
+        printf("-Squirrel %d Receive information from landcell %d.\n", id, this_land_Pid);
         squirrel->population50 += info_landcell[0]; //把populationInflux 加到松鼠info里
         EnQueue(&squirrel->q, info_landcell[1]);
 //        EnQueue(&squirrel->q, info_landcell[])

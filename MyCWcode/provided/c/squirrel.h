@@ -7,7 +7,7 @@
 #include "sauirrel_queue.h"
 
 
-#define LANDCELL 16
+#define LANDCELL 8
 #define SQUIRREL 8
 #define BUFFSIZE 500000
 
