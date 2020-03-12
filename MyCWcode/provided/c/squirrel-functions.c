@@ -10,9 +10,6 @@
 #define M_PI 3.14159265358979323846
 #endif
 
-int main() {
-
-}
 
 /**
  * Initialises the random number generator, call it once at the start of the program on each process. The input

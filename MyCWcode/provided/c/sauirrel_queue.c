@@ -179,6 +179,7 @@ int QueueCount(LinkQueue Q) {
     return count;
 }
 
+
 //int main() {
 //    LinkQueue q;
 //    QElemType e;

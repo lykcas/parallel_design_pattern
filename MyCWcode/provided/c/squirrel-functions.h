@@ -1,3 +1,7 @@
+#ifdef __cplusplus
+extern "C" {
+#endif
+
 #ifndef _HELPER_FUNCTIONS_H
 #define _HELPER_FUNCTIONS_H
 
@@ -13,4 +17,8 @@ int willDie(long *);
 
 int getCellFromPosition(float, float);
 
+#endif
+
+#ifdef __cplusplus
+}
 #endif

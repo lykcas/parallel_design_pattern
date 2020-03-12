@@ -82,5 +82,6 @@ static void workerCode() {
 		}
 
 		workerStatus=workerSleep();	// This MPI process will sleep, further workers may be run on this process now
+		printf("Hey I am still alive.\n");
 	}
 }

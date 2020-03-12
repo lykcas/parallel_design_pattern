@@ -1,6 +1,9 @@
 //
 // Created by YUKE LI on 2020/3/11.
 //
+#ifdef __cplusplus
+extern "C" {
+#endif
 
 #ifndef UNTITLED_SAUIRREL_QUEUE_H
 #define UNTITLED_SAUIRREL_QUEUE_H
@@ -45,4 +48,10 @@ Status DeQueue(LinkQueue *, QElemType *);
 // Get all elements of queue
 //void QueueTraverse(LinkQueue , void(*vi)(QElemType));
 void QueueTraverse(LinkQueue);
+// Get the sum of queue
+int QueueCount(LinkQueue);
 #endif //UNTITLED_SAUIRREL_QUEUE_H
+
+#ifdef __cplusplus
+}
+#endif
