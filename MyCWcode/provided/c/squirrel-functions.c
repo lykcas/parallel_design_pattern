@@ -73,5 +73,5 @@ int willDie(long * state) {
  * Returns the id of the cell from its x and y coordinates.
  */
 int getCellFromPosition(float x, float y){
-    return((int)(x*4)+(int)(y*4));
+    return((int)(x*2)+2*(int)(y*2));
 }

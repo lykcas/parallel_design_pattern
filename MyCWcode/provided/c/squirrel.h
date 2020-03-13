@@ -7,9 +7,10 @@
 #include "sauirrel_queue.h"
 
 
-#define LANDCELL 8
-#define SQUIRREL 8
-#define BUFFSIZE 500000
+#define LANDCELL 16
+#define SQUIRREL 34
+#define BUFFSIZE 5000
+#define MONTH 24
 
 struct landcell {
     int id;
