@@ -1,0 +1,1536 @@
+I am a land, my id = 2, my rank is 2
+I am a land, my id = 12, my rank is 12
+I am a land, my id = 7, my rank is 7
+I am a land, my id = 6, my rank is 6
+I am a land, my id = 13, my rank is 13
+I am a land, my id = 4, my rank is 4
+200 OK
+I am a land, my id = 5, my rank is 5
+I am a land, my id = 14, my rank is 14
+I am a land, my id = 9, my rank is 9
+I am a land, my id = 16, my rank is 16
+I am a land, my id = 1, my rank is 1
+I am a land, my id = 10, my rank is 10
+I am a land, my id = 11, my rank is 11
+Now is month 0~~~11~~
+
+I am a land, my id = 8, my rank is 8
+200 OK
+I am a land, my id = 15, my rank is 15
+I am a land, my id = 3, my rank is 3
+200 OK
+Now is month 0~~~14~~
+
+200 OK
+Now is month 0~~~1~~
+
+200 OK
+Now is month 0~~~12~~
+
+200 OK
+200 OK
+Now is month 0~~~10~~
+
+200 OK
+Now is month 0~~~2~~
+
+Now is month 0~~~15~~
+
+200 OK
+Now is month 0~~~9~~
+
+200 OK
+200 OK
+Now is month 0~~~13~~
+
+200 OK
+200 OK
+200 OK
+200 OK
+200 OK
+Now is month 0~~~3~~
+
+Now is month 0~~~5~~
+
+Now is month 0~~~8~~
+
+200 OK
+200 OK
+200 OK
+200 OK
+200 OK
+200 OK
+200 OK
+Now is month 0~~~16~~
+
+Now is month 0~~~4~~
+
+200 OK
+Now is month 0~~~7~~
+
+200 OK
+200 OK
+200 OK
+200 OK
+200 OK
+200 OK
+200 OK
+200 OK
+200 OK
+200 OK
+Now is month 0~~~6~~
+
+------------This is month 0----------
+No. 1 land receive update command 1. My population is 21, My infection is 4
+No. 2 land receive update command 1. My population is 21, My infection is 3
+No. 3 land receive update command 1. My population is 19, My infection is 0
+No. 4 land receive update command 1. My population is 16, My infection is 1
+No. 5 land receive update command 1. My population is 23, My infection is 3
+No. 6 land receive update command 1. My population is 25, My infection is 4
+No. 7 land receive update command 1. My population is 29, My infection is 5
+No. 8 land receive update command 1. My population is 23, My infection is 2
+No. 9 land receive update command 1. My population is 14, My infection is 3
+No. 10 land receive update command 1. My population is 27, My infection is 1
+No. 11 land receive update command 1. My population is 24, My infection is 3
+No. 12 land receive update command 1. My population is 17, My infection is 4
+No. 13 land receive update command 1. My population is 25, My infection is 3
+No. 14 land receive update command 1. My population is 16, My infection is 0
+No. 15 land receive update command 1. My population is 19, My infection is 2
+No. 16 land receive update command 1. My population is 21, My infection is 2
+Now is month 1~~~8~~
+
+Now is month 1~~~1~~
+
+Now is month 1~~~4~~
+
+Now is month 1~~~7~~
+
+Now is month 1~~~3~~
+
+Now is month 1~~~10~~
+
+Now is month 1~~~13~~
+
+Now is month 1~~~14~~
+
+Now is month 1~~~6~~
+
+Now is month 1~~~16~~
+
+Now is month 1~~~5~~
+
+Now is month 1~~~9~~
+
+Now is month 1~~~15~~
+
+Now is month 1~~~12~~
+
+Now is month 1~~~2~~
+
+Now is month 1~~~11~~
+
+------------This is month 1----------
+No. 1 land receive update command 1. My population is 60, My infection is 4
+No. 2 land receive update command 1. My population is 67, My infection is 9
+No. 3 land receive update command 1. My population is 59, My infection is 9
+No. 4 land receive update command 1. My population is 59, My infection is 4
+No. 5 land receive update command 1. My population is 63, My infection is 8
+No. 6 land receive update command 1. My population is 61, My infection is 8
+No. 7 land receive update command 1. My population is 72, My infection is 12
+No. 8 land receive update command 1. My population is 70, My infection is 5
+No. 9 land receive update command 1. My population is 50, My infection is 5
+No. 10 land receive update command 1. My population is 78, My infection is 10
+No. 11 land receive update command 1. My population is 61, My infection is 8
+No. 12 land receive update command 1. My population is 65, My infection is 11
+No. 13 land receive update command 1. My population is 64, My infection is 9
+No. 14 land receive update command 1. My population is 70, My infection is 7
+No. 15 land receive update command 1. My population is 64, My infection is 6
+No. 16 land receive update command 1. My population is 57, My infection is 5
+Now is month 2~~~15~~
+
+Now is month 2~~~8~~
+
+Now is month 2~~~16~~
+
+Now is month 2~~~9~~
+
+Now is month 2~~~10~~
+
+Now is month 2~~~13~~
+
+Now is month 2~~~3~~
+
+Now is month 2~~~11~~
+
+Now is month 2~~~4~~
+
+Now is month 2~~~6~~
+
+Now is month 2~~~12~~
+
+Now is month 2~~~5~~
+
+Now is month 2~~~2~~
+
+Now is month 2~~~1~~
+
+Now is month 2~~~7~~
+
+Now is month 2~~~14~~
+
+------------This is month 2----------
+No. 1 land receive update command 1. My population is 96, My infection is 4
+No. 2 land receive update command 1. My population is 100, My infection is 9
+No. 3 land receive update command 1. My population is 99, My infection is 9
+No. 4 land receive update command 1. My population is 101, My infection is 4
+No. 5 land receive update command 1. My population is 113, My infection is 8
+No. 6 land receive update command 1. My population is 100, My infection is 8
+No. 7 land receive update command 1. My population is 102, My infection is 12
+No. 8 land receive update command 1. My population is 111, My infection is 5
+No. 9 land receive update command 1. My population is 94, My infection is 5
+No. 10 land receive update command 1. My population is 128, My infection is 10
+No. 11 land receive update command 1. My population is 107, My infection is 8
+No. 12 land receive update command 1. My population is 114, My infection is 11
+No. 13 land receive update command 1. My population is 112, My infection is 9
+No. 14 land receive update command 1. My population is 110, My infection is 7
+No. 15 land receive update command 1. My population is 107, My infection is 6
+No. 16 land receive update command 1. My population is 106, My infection is 5
+Now is month 3~~~2~~
+
+Now is month 3~~~16~~
+
+Now is month 3~~~14~~
+
+Now is month 3~~~3~~
+
+Now is month 3~~~12~~
+
+Now is month 3~~~6~~
+
+Now is month 3~~~8~~
+
+Now is month 3~~~13~~
+
+Now is month 3~~~7~~
+
+Now is month 3~~~1~~
+
+Now is month 3~~~5~~
+
+Now is month 3~~~15~~
+
+Now is month 3~~~11~~
+
+Now is month 3~~~4~~
+
+Now squirrel 23 is dead.
+Now squirrel 22 is dead.
+Now is month 3~~~10~~
+
+Now is month 3~~~9~~
+
+Now squirrel 20 is dead.
+Now squirrel 21 is dead.
+------------This is month 3----------
+No. 1 land receive update command 1. My population is 117, My infection is 5
+No. 2 land receive update command 1. My population is 126, My infection is 10
+No. 3 land receive update command 1. My population is 114, My infection is 12
+No. 4 land receive update command 1. My population is 126, My infection is 9
+No. 5 land receive update command 1. My population is 127, My infection is 10
+No. 6 land receive update command 1. My population is 112, My infection is 9
+No. 7 land receive update command 1. My population is 117, My infection is 10
+No. 8 land receive update command 1. My population is 117, My infection is 9
+No. 9 land receive update command 1. My population is 124, My infection is 4
+No. 10 land receive update command 1. My population is 139, My infection is 21
+No. 11 land receive update command 1. My population is 117, My infection is 7
+No. 12 land receive update command 1. My population is 135, My infection is 14
+No. 13 land receive update command 1. My population is 129, My infection is 11
+No. 14 land receive update command 1. My population is 139, My infection is 10
+No. 15 land receive update command 1. My population is 124, My infection is 14
+No. 16 land receive update command 1. My population is 117, My infection is 5
+Now is month 4~~~14~~
+
+Now is month 4~~~16~~
+
+Now is month 4~~~1~~
+
+Now is month 4~~~10~~
+
+Now is month 4~~~3~~
+
+Now is month 4~~~4~~
+
+Now is month 4~~~11~~
+
+Now is month 4~~~2~~
+
+Now is month 4~~~9~~
+
+Now is month 4~~~6~~
+
+Now is month 4~~~5~~
+
+Now is month 4~~~15~~
+
+Now is month 4~~~7~~
+
+Now is month 4~~~13~~
+
+Now is month 4~~~8~~
+
+Now is month 4~~~12~~
+
+------------This is month 4----------
+No. 1 land receive update command 1. My population is 115, My infection is 6
+No. 2 land receive update command 1. My population is 111, My infection is 5
+No. 3 land receive update command 1. My population is 98, My infection is 5
+No. 4 land receive update command 1. My population is 129, My infection is 8
+No. 5 land receive update command 1. My population is 122, My infection is 5
+No. 6 land receive update command 1. My population is 119, My infection is 8
+No. 7 land receive update command 1. My population is 113, My infection is 4
+No. 8 land receive update command 1. My population is 98, My infection is 8
+No. 9 land receive update command 1. My population is 130, My infection is 2
+No. 10 land receive update command 1. My population is 126, My infection is 14
+No. 11 land receive update command 1. My population is 120, My infection is 3
+No. 12 land receive update command 1. My population is 114, My infection is 8
+No. 13 land receive update command 1. My population is 129, My infection is 7
+No. 14 land receive update command 1. My population is 128, My infection is 4
+No. 15 land receive update command 1. My population is 127, My infection is 11
+No. 16 land receive update command 1. My population is 121, My infection is 2
+Now is month 5~~~11~~
+
+Now is month 5~~~2~~
+
+Now is month 5~~~4~~
+
+Now is month 5~~~6~~
+
+Now is month 5~~~7~~
+
+Now is month 5~~~12~~
+
+Now is month 5~~~13~~
+
+Now is month 5~~~10~~
+
+Now is month 5~~~15~~
+
+Now is month 5~~~16~~
+
+Now is month 5~~~5~~
+
+Now is month 5~~~14~~
+
+Now is month 5~~~1~~
+
+Now is month 5~~~3~~
+
+Now is month 5~~~8~~
+
+Now is month 5~~~9~~
+
+Squirrel 27 have a baby 20.
+Squirrel 18 have a baby 21.
+Squirrel 37 have a baby 22.
+Squirrel 42 have a baby 23.
+Squirrel 36 have a baby 52.
+Hi! I am Squirrel 52, my parent is 36.
+200 OK
+Now squirrel 20 is dead.
+Now squirrel 22 is dead.
+Now squirrel 21 is dead.
+! ! ! ! ! ! Squirrel 44 start to catch disease.
+------------This is month 5----------
+No. 1 land receive update command 1. My population is 127, My infection is 1
+No. 2 land receive update command 1. My population is 120, My infection is 1
+No. 3 land receive update command 1. My population is 91, My infection is 2
+No. 4 land receive update command 1. My population is 128, My infection is 2
+No. 5 land receive update command 1. My population is 109, My infection is 0
+No. 6 land receive update command 1. My population is 114, My infection is 3
+No. 7 land receive update command 1. My population is 132, My infection is 1
+No. 8 land receive update command 1. My population is 82, My infection is 2
+No. 9 land receive update command 1. My population is 128, My infection is 0
+No. 10 land receive update command 1. My population is 121, My infection is 2
+No. 11 land receive update command 1. My population is 109, My infection is 1
+No. 12 land receive update command 1. My population is 109, My infection is 1
+No. 13 land receive update command 1. My population is 120, My infection is 2
+No. 14 land receive update command 1. My population is 125, My infection is 1
+No. 15 land receive update command 1. My population is 125, My infection is 1
+No. 16 land receive update command 1. My population is 111, My infection is 0
+Now is month 6~~~8~~
+
+Now is month 6~~~1~~
+
+Now is month 6~~~14~~
+
+Now is month 6~~~5~~
+
+Now is month 6~~~12~~
+
+Now is month 6~~~3~~
+
+Now is month 6~~~10~~
+
+Now is month 6~~~15~~
+
+Now is month 6~~~16~~
+
+Now is month 6~~~11~~
+
+Now is month 6~~~4~~
+
+Now is month 6~~~7~~
+
+Now is month 6~~~2~~
+
+Now is month 6~~~13~~
+
+Now is month 6~~~6~~
+
+Now is month 6~~~9~~
+
+Now squirrel 23 is dead.
+------------This is month 6----------
+No. 1 land receive update command 1. My population is 127, My infection is 2
+No. 2 land receive update command 1. My population is 115, My infection is 3
+No. 3 land receive update command 1. My population is 95, My infection is 2
+No. 4 land receive update command 1. My population is 124, My infection is 1
+No. 5 land receive update command 1. My population is 108, My infection is 4
+No. 6 land receive update command 1. My population is 114, My infection is 1
+No. 7 land receive update command 1. My population is 120, My infection is 0
+No. 8 land receive update command 1. My population is 82, My infection is 1
+No. 9 land receive update command 1. My population is 118, My infection is 0
+No. 10 land receive update command 1. My population is 133, My infection is 1
+No. 11 land receive update command 1. My population is 111, My infection is 1
+No. 12 land receive update command 1. My population is 108, My infection is 1
+No. 13 land receive update command 1. My population is 110, My infection is 4
+No. 14 land receive update command 1. My population is 125, My infection is 0
+No. 15 land receive update command 1. My population is 134, My infection is 1
+No. 16 land receive update command 1. My population is 133, My infection is 1
+Now is month 7~~~8~~
+
+Now is month 7~~~14~~
+
+Now is month 7~~~16~~
+
+Now is month 7~~~1~~
+
+Now is month 7~~~3~~
+
+Now is month 7~~~6~~
+
+Now is month 7~~~7~~
+
+Now is month 7~~~15~~
+
+Now is month 7~~~12~~
+
+Now is month 7~~~9~~
+
+Now is month 7~~~11~~
+
+Now is month 7~~~2~~
+
+Now is month 7~~~5~~
+
+Now is month 7~~~10~~
+
+Now is month 7~~~4~~
+
+Now is month 7~~~13~~
+
+Squirrel 35 have a baby 20.
+Squirrel 19 have a baby 21.
+Squirrel 39 have a baby 22.
+Squirrel 37 have a baby 23.
+Squirrel 50 have a baby 53.
+Hi! I am Squirrel 53, my parent is 50.
+200 OK
+------------This is month 7----------
+No. 1 land receive update command 1. My population is 128, My infection is 4
+No. 2 land receive update command 1. My population is 125, My infection is 5
+No. 3 land receive update command 1. My population is 109, My infection is 2
+No. 4 land receive update command 1. My population is 119, My infection is 2
+No. 5 land receive update command 1. My population is 106, My infection is 6
+No. 6 land receive update command 1. My population is 115, My infection is 2
+No. 7 land receive update command 1. My population is 113, My infection is 0
+No. 8 land receive update command 1. My population is 88, My infection is 3
+No. 9 land receive update command 1. My population is 121, My infection is 2
+No. 10 land receive update command 1. My population is 139, My infection is 6
+No. 11 land receive update command 1. My population is 110, My infection is 2
+No. 12 land receive update command 1. My population is 125, My infection is 4
+No. 13 land receive update command 1. My population is 110, My infection is 6
+No. 14 land receive update command 1. My population is 113, My infection is 1
+No. 15 land receive update command 1. My population is 124, My infection is 1
+No. 16 land receive update command 1. My population is 133, My infection is 3
+Now is month 8~~~7~~
+
+Now is month 8~~~16~~
+
+Now is month 8~~~4~~
+
+Now is month 8~~~5~~
+
+Now is month 8~~~15~~
+
+Now is month 8~~~6~~
+
+Now is month 8~~~13~~
+
+Now is month 8~~~10~~
+
+Now is month 8~~~8~~
+
+Now is month 8~~~12~~
+
+Now squirrel 21 is dead.
+Now is month 8~~~3~~
+
+Now is month 8~~~9~~
+
+Now is month 8~~~14~~
+
+Now squirrel 23 is dead.
+Now is month 8~~~2~~
+
+Now squirrel 20 is dead.
+Now is month 8~~~11~~
+
+Now is month 8~~~1~~
+
+Now squirrel 22 is dead.
+Now squirrel 44 is dead.
+------------This is month 8----------
+No. 1 land receive update command 1. My population is 121, My infection is 3
+No. 2 land receive update command 1. My population is 122, My infection is 5
+No. 3 land receive update command 1. My population is 116, My infection is 1
+No. 4 land receive update command 1. My population is 113, My infection is 3
+No. 5 land receive update command 1. My population is 119, My infection is 2
+No. 6 land receive update command 1. My population is 120, My infection is 2
+No. 7 land receive update command 1. My population is 103, My infection is 2
+No. 8 land receive update command 1. My population is 100, My infection is 4
+No. 9 land receive update command 1. My population is 116, My infection is 4
+No. 10 land receive update command 1. My population is 141, My infection is 5
+No. 11 land receive update command 1. My population is 114, My infection is 2
+No. 12 land receive update command 1. My population is 134, My infection is 4
+No. 13 land receive update command 1. My population is 102, My infection is 4
+No. 14 land receive update command 1. My population is 113, My infection is 2
+No. 15 land receive update command 1. My population is 129, My infection is 0
+No. 16 land receive update command 1. My population is 128, My infection is 3
+Now is month 9~~~9~~
+
+Now is month 9~~~15~~
+
+Now is month 9~~~1~~
+
+Now is month 9~~~16~~
+
+Now is month 9~~~14~~
+
+Now is month 9~~~13~~
+
+Now is month 9~~~8~~
+
+Now is month 9~~~12~~
+
+Now is month 9~~~2~~
+
+Now is month 9~~~10~~
+
+Now is month 9~~~6~~
+
+Now is month 9~~~7~~
+
+Now is month 9~~~11~~
+
+Now is month 9~~~5~~
+
+Now is month 9~~~4~~
+
+Now is month 9~~~3~~
+
+------------This is month 9----------
+No. 1 land receive update command 1. My population is 116, My infection is 1
+No. 2 land receive update command 1. My population is 116, My infection is 3
+No. 3 land receive update command 1. My population is 121, My infection is 4
+No. 4 land receive update command 1. My population is 111, My infection is 3
+No. 5 land receive update command 1. My population is 116, My infection is 0
+No. 6 land receive update command 1. My population is 120, My infection is 3
+No. 7 land receive update command 1. My population is 111, My infection is 3
+No. 8 land receive update command 1. My population is 114, My infection is 3
+No. 9 land receive update command 1. My population is 118, My infection is 6
+No. 10 land receive update command 1. My population is 122, My infection is 2
+No. 11 land receive update command 1. My population is 110, My infection is 2
+No. 12 land receive update command 1. My population is 129, My infection is 6
+No. 13 land receive update command 1. My population is 107, My infection is 3
+No. 14 land receive update command 1. My population is 126, My infection is 1
+No. 15 land receive update command 1. My population is 127, My infection is 1
+No. 16 land receive update command 1. My population is 121, My infection is 3
+Now is month 10~~~5~~
+
+Now is month 10~~~6~~
+
+Now is month 10~~~4~~
+
+Now is month 10~~~8~~
+
+Now is month 10~~~14~~
+
+Now is month 10~~~15~~
+
+Now is month 10~~~1~~
+
+Now is month 10~~~2~~
+
+Now is month 10~~~13~~
+
+Now is month 10~~~9~~
+
+Now is month 10~~~11~~
+
+Now is month 10~~~16~~
+
+Now is month 10~~~3~~
+
+Now is month 10~~~10~~
+
+Now is month 10~~~12~~
+
+Now is month 10~~~7~~
+
+Squirrel 30 have a baby 20.
+Squirrel 18 have a baby 21.
+Squirrel 28 have a baby 22.
+Squirrel 31 have a baby 23.
+Squirrel 32 have a baby 44.
+Squirrel 51 have a baby 54.
+Hi! I am Squirrel 54, my parent is 51.
+200 OK
+Squirrel 48 have a baby 55.
+Hi! I am Squirrel 55, my parent is 48.
+200 OK
+Squirrel 50 have a baby 56.
+Hi! I am Squirrel 56, my parent is 50.
+200 OK
+Now squirrel 20 is dead.
+Now squirrel 22 is dead.
+Now squirrel 23 is dead.
+------------This is month 10----------
+No. 1 land receive update command 1. My population is 129, My infection is 0
+No. 2 land receive update command 1. My population is 128, My infection is 0
+No. 3 land receive update command 1. My population is 124, My infection is 3
+No. 4 land receive update command 1. My population is 116, My infection is 1
+No. 5 land receive update command 1. My population is 123, My infection is 0
+No. 6 land receive update command 1. My population is 112, My infection is 2
+No. 7 land receive update command 1. My population is 124, My infection is 1
+No. 8 land receive update command 1. My population is 116, My infection is 1
+No. 9 land receive update command 1. My population is 118, My infection is 4
+No. 10 land receive update command 1. My population is 112, My infection is 2
+No. 11 land receive update command 1. My population is 113, My infection is 1
+No. 12 land receive update command 1. My population is 123, My infection is 5
+No. 13 land receive update command 1. My population is 114, My infection is 1
+No. 14 land receive update command 1. My population is 133, My infection is 0
+No. 15 land receive update command 1. My population is 137, My infection is 1
+No. 16 land receive update command 1. My population is 120, My infection is 2
+Now is month 11~~~2~~
+
+Now is month 11~~~5~~
+
+Now is month 11~~~8~~
+
+Now is month 11~~~15~~
+
+Now is month 11~~~14~~
+
+Now is month 11~~~1~~
+
+Now is month 11~~~16~~
+
+Now is month 11~~~10~~
+
+Now is month 11~~~7~~
+
+Now is month 11~~~13~~
+
+Now is month 11~~~4~~
+
+Now is month 11~~~9~~
+
+Now is month 11~~~6~~
+
+Now is month 11~~~12~~
+
+Now is month 11~~~11~~
+
+Now is month 11~~~3~~
+
+Now squirrel 44 is dead.
+Now squirrel 21 is dead.
+------------This is month 11----------
+No. 1 land receive update command 1. My population is 139, My infection is 3
+No. 2 land receive update command 1. My population is 132, My infection is 2
+No. 3 land receive update command 1. My population is 126, My infection is 1
+No. 4 land receive update command 1. My population is 126, My infection is 2
+No. 5 land receive update command 1. My population is 112, My infection is 0
+No. 6 land receive update command 1. My population is 106, My infection is 2
+No. 7 land receive update command 1. My population is 128, My infection is 1
+No. 8 land receive update command 1. My population is 128, My infection is 0
+No. 9 land receive update command 1. My population is 120, My infection is 3
+No. 10 land receive update command 1. My population is 109, My infection is 0
+No. 11 land receive update command 1. My population is 119, My infection is 3
+No. 12 land receive update command 1. My population is 111, My infection is 1
+No. 13 land receive update command 1. My population is 127, My infection is 2
+No. 14 land receive update command 1. My population is 136, My infection is 1
+No. 15 land receive update command 1. My population is 146, My infection is 2
+No. 16 land receive update command 1. My population is 128, My infection is 2
+Now is month 12~~~7~~
+
+Now is month 12~~~12~~
+
+Now is month 12~~~14~~
+
+Now is month 12~~~5~~
+
+Now is month 12~~~4~~
+
+Now is month 12~~~13~~
+
+Now is month 12~~~2~~
+
+Now is month 12~~~15~~
+
+Now is month 12~~~3~~
+
+Now is month 12~~~8~~
+
+Now is month 12~~~11~~
+
+Now is month 12~~~16~~
+
+Now is month 12~~~1~~
+
+Now is month 12~~~6~~
+
+Now is month 12~~~9~~
+
+Now is month 12~~~10~~
+
+Squirrel 53 have a baby 20.
+Squirrel 56 have a baby 21.
+Squirrel 30 have a baby 22.
+Squirrel 18 have a baby 23.
+------------This is month 12----------
+No. 1 land receive update command 1. My population is 149, My infection is 5
+No. 2 land receive update command 1. My population is 141, My infection is 3
+No. 3 land receive update command 1. My population is 128, My infection is 1
+No. 4 land receive update command 1. My population is 138, My infection is 3
+No. 5 land receive update command 1. My population is 122, My infection is 0
+No. 6 land receive update command 1. My population is 112, My infection is 3
+No. 7 land receive update command 1. My population is 124, My infection is 1
+No. 8 land receive update command 1. My population is 124, My infection is 2
+No. 9 land receive update command 1. My population is 127, My infection is 4
+No. 10 land receive update command 1. My population is 119, My infection is 1
+No. 11 land receive update command 1. My population is 128, My infection is 4
+No. 12 land receive update command 1. My population is 121, My infection is 1
+No. 13 land receive update command 1. My population is 136, My infection is 4
+No. 14 land receive update command 1. My population is 121, My infection is 2
+No. 15 land receive update command 1. My population is 139, My infection is 3
+No. 16 land receive update command 1. My population is 126, My infection is 3
+Now is month 13~~~16~~
+
+Now is month 13~~~5~~
+
+Now is month 13~~~15~~
+
+Now is month 13~~~1~~
+
+Now is month 13~~~4~~
+
+Now is month 13~~~6~~
+
+Now is month 13~~~9~~
+
+Now is month 13~~~13~~
+
+Now is month 13~~~12~~
+
+Now is month 13~~~11~~
+
+Now is month 13~~~8~~
+
+Now is month 13~~~14~~
+
+Now is month 13~~~7~~
+
+Now is month 13~~~10~~
+
+Now is month 13~~~2~~
+
+Now is month 13~~~3~~
+
+Now squirrel 20 is dead.
+Now squirrel 22 is dead.
+Now squirrel 21 is dead.
+Now squirrel 23 is dead.
+------------This is month 13----------
+No. 1 land receive update command 1. My population is 133, My infection is 3
+No. 2 land receive update command 1. My population is 129, My infection is 1
+No. 3 land receive update command 1. My population is 131, My infection is 0
+No. 4 land receive update command 1. My population is 126, My infection is 1
+No. 5 land receive update command 1. My population is 123, My infection is 0
+No. 6 land receive update command 1. My population is 117, My infection is 2
+No. 7 land receive update command 1. My population is 134, My infection is 0
+No. 8 land receive update command 1. My population is 138, My infection is 2
+No. 9 land receive update command 1. My population is 136, My infection is 1
+No. 10 land receive update command 1. My population is 122, My infection is 1
+No. 11 land receive update command 1. My population is 131, My infection is 1
+No. 12 land receive update command 1. My population is 122, My infection is 0
+No. 13 land receive update command 1. My population is 130, My infection is 2
+No. 14 land receive update command 1. My population is 136, My infection is 1
+No. 15 land receive update command 1. My population is 128, My infection is 1
+No. 16 land receive update command 1. My population is 133, My infection is 1
+Now is month 14~~~10~~
+
+Now is month 14~~~2~~
+
+Now is month 14~~~1~~
+
+Now is month 14~~~16~~
+
+Now is month 14~~~12~~
+
+Now is month 14~~~9~~
+
+Now is month 14~~~8~~
+
+Now is month 14~~~13~~
+
+Now is month 14~~~5~~
+
+Now is month 14~~~6~~
+
+Now is month 14~~~7~~
+
+Now is month 14~~~14~~
+
+Now is month 14~~~11~~
+
+Now is month 14~~~3~~
+
+Now is month 14~~~15~~
+
+Now is month 14~~~4~~
+
+------------This is month 14----------
+No. 1 land receive update command 1. My population is 118, My infection is 3
+No. 2 land receive update command 1. My population is 126, My infection is 0
+No. 3 land receive update command 1. My population is 118, My infection is 1
+No. 4 land receive update command 1. My population is 115, My infection is 1
+No. 5 land receive update command 1. My population is 118, My infection is 1
+No. 6 land receive update command 1. My population is 139, My infection is 1
+No. 7 land receive update command 1. My population is 139, My infection is 0
+No. 8 land receive update command 1. My population is 140, My infection is 0
+No. 9 land receive update command 1. My population is 142, My infection is 3
+No. 10 land receive update command 1. My population is 119, My infection is 2
+No. 11 land receive update command 1. My population is 138, My infection is 1
+No. 12 land receive update command 1. My population is 119, My infection is 0
+No. 13 land receive update command 1. My population is 138, My infection is 0
+No. 14 land receive update command 1. My population is 148, My infection is 0
+No. 15 land receive update command 1. My population is 109, My infection is 1
+No. 16 land receive update command 1. My population is 128, My infection is 0
+Now is month 15~~~2~~
+
+Now is month 15~~~5~~
+
+Now is month 15~~~12~~
+
+Now is month 15~~~3~~
+
+Now is month 15~~~13~~
+
+Now is month 15~~~1~~
+
+Now is month 15~~~14~~
+
+Now is month 15~~~4~~
+
+Now is month 15~~~6~~
+
+Now is month 15~~~15~~
+
+Now is month 15~~~10~~
+
+Now is month 15~~~11~~
+
+Now is month 15~~~9~~
+
+Now is month 15~~~8~~
+
+Now is month 15~~~16~~
+
+Now is month 15~~~7~~
+
+Squirrel 53 have a baby 20.
+Squirrel 56 have a baby 21.
+Squirrel 30 have a baby 22.
+Squirrel 29 have a baby 44.
+Squirrel 34 have a baby 23.
+Squirrel 24 have a baby 57.
+Squirrel 31 have a baby 58.
+Squirrel 19 have a baby 59.
+Hi! I am Squirrel 57, my parent is 24.
+200 OK
+Hi! I am Squirrel 58, my parent is 31.
+200 OK
+Hi! I am Squirrel 59, my parent is 19.
+200 OK
+Squirrel 41 have a baby 60.
+Hi! I am Squirrel 60, my parent is 41.
+200 OK
+Squirrel 42 have a baby 61.
+Hi! I am Squirrel 61, my parent is 42.
+200 OK
+Squirrel 38 have a baby 62.
+Hi! I am Squirrel 62, my parent is 38.
+200 OK
+Now squirrel 20 is dead.
+Now squirrel 21 is dead.
+Now squirrel 22 is dead.
+------------This is month 15----------
+No. 1 land receive update command 1. My population is 124, My infection is 2
+No. 2 land receive update command 1. My population is 128, My infection is 0
+No. 3 land receive update command 1. My population is 131, My infection is 1
+No. 4 land receive update command 1. My population is 124, My infection is 1
+No. 5 land receive update command 1. My population is 130, My infection is 1
+No. 6 land receive update command 1. My population is 159, My infection is 0
+No. 7 land receive update command 1. My population is 142, My infection is 0
+No. 8 land receive update command 1. My population is 148, My infection is 0
+No. 9 land receive update command 1. My population is 138, My infection is 3
+No. 10 land receive update command 1. My population is 120, My infection is 2
+No. 11 land receive update command 1. My population is 148, My infection is 1
+No. 12 land receive update command 1. My population is 125, My infection is 0
+No. 13 land receive update command 1. My population is 129, My infection is 0
+No. 14 land receive update command 1. My population is 147, My infection is 0
+No. 15 land receive update command 1. My population is 126, My infection is 1
+No. 16 land receive update command 1. My population is 129, My infection is 0
+Now is month 16~~~14~~
+
+Now is month 16~~~2~~
+
+Now is month 16~~~11~~
+
+Now is month 16~~~12~~
+
+Now is month 16~~~7~~
+
+Now is month 16~~~15~~
+
+Now is month 16~~~1~~
+
+Now is month 16~~~8~~
+
+Now is month 16~~~5~~
+
+Now is month 16~~~13~~
+
+Now is month 16~~~9~~
+
+Now is month 16~~~10~~
+
+Now is month 16~~~16~~
+
+Now is month 16~~~6~~
+
+Now is month 16~~~3~~
+
+Now is month 16~~~4~~
+
+Now squirrel 44 is dead.
+Squirrel 23 have a baby 20.
+Now squirrel 23 is dead.
+Now squirrel 20 is dead.
+------------This is month 16----------
+No. 1 land receive update command 1. My population is 142, My infection is 2
+No. 2 land receive update command 1. My population is 127, My infection is 3
+No. 3 land receive update command 1. My population is 142, My infection is 4
+No. 4 land receive update command 1. My population is 140, My infection is 1
+No. 5 land receive update command 1. My population is 150, My infection is 2
+No. 6 land receive update command 1. My population is 158, My infection is 1
+No. 7 land receive update command 1. My population is 143, My infection is 0
+No. 8 land receive update command 1. My population is 149, My infection is 3
+No. 9 land receive update command 1. My population is 147, My infection is 3
+No. 10 land receive update command 1. My population is 137, My infection is 4
+No. 11 land receive update command 1. My population is 148, My infection is 2
+No. 12 land receive update command 1. My population is 134, My infection is 1
+No. 13 land receive update command 1. My population is 151, My infection is 0
+No. 14 land receive update command 1. My population is 140, My infection is 1
+No. 15 land receive update command 1. My population is 142, My infection is 2
+No. 16 land receive update command 1. My population is 131, My infection is 1
+Now is month 17~~~9~~
+
+Now is month 17~~~10~~
+
+Now is month 17~~~2~~
+
+Now is month 17~~~7~~
+
+Now is month 17~~~15~~
+
+Now is month 17~~~8~~
+
+Now is month 17~~~16~~
+
+Now is month 17~~~4~~
+
+Now is month 17~~~6~~
+
+Now is month 17~~~13~~
+
+Now is month 17~~~5~~
+
+Now is month 17~~~11~~
+
+Now is month 17~~~12~~
+
+Now is month 17~~~3~~
+
+Now is month 17~~~14~~
+
+Now is month 17~~~1~~
+
+Squirrel 57 have a baby 20.
+Squirrel 29 have a baby 21.
+Squirrel 31 have a baby 22.
+Squirrel 42 have a baby 23.
+Squirrel 38 have a baby 44.
+Squirrel 40 have a baby 63.
+Hi! I am Squirrel 63, my parent is 40.
+200 OK
+Squirrel 45 have a baby 64.
+Hi! I am Squirrel 64, my parent is 45.
+200 OK
+Squirrel 36 have a baby 65.
+Hi! I am Squirrel 65, my parent is 36.
+200 OK
+------------This is month 17----------
+No. 1 land receive update command 1. My population is 142, My infection is 7
+No. 2 land receive update command 1. My population is 141, My infection is 3
+No. 3 land receive update command 1. My population is 157, My infection is 6
+No. 4 land receive update command 1. My population is 149, My infection is 3
+No. 5 land receive update command 1. My population is 164, My infection is 2
+No. 6 land receive update command 1. My population is 151, My infection is 2
+No. 7 land receive update command 1. My population is 161, My infection is 3
+No. 8 land receive update command 1. My population is 156, My infection is 3
+No. 9 land receive update command 1. My population is 153, My infection is 5
+No. 10 land receive update command 1. My population is 141, My infection is 5
+No. 11 land receive update command 1. My population is 146, My infection is 3
+No. 12 land receive update command 1. My population is 147, My infection is 3
+No. 13 land receive update command 1. My population is 147, My infection is 4
+No. 14 land receive update command 1. My population is 140, My infection is 2
+No. 15 land receive update command 1. My population is 164, My infection is 2
+No. 16 land receive update command 1. My population is 146, My infection is 2
+Now is month 18~~~4~~
+
+Now is month 18~~~14~~
+
+Now is month 18~~~10~~
+
+Now is month 18~~~7~~
+
+Now is month 18~~~6~~
+
+Now is month 18~~~13~~
+
+Now is month 18~~~3~~
+
+Now is month 18~~~9~~
+
+Now is month 18~~~15~~
+
+Now is month 18~~~1~~
+
+Now is month 18~~~16~~
+
+Now squirrel 23 is dead.
+Now is month 18~~~8~~
+
+Now is month 18~~~12~~
+
+Now is month 18~~~5~~
+
+Now is month 18~~~2~~
+
+Now is month 18~~~11~~
+
+Now squirrel 44 is dead.
+Now squirrel 20 is dead.
+Now squirrel 22 is dead.
+Now squirrel 21 is dead.
+------------This is month 18----------
+No. 1 land receive update command 1. My population is 138, My infection is 5
+No. 2 land receive update command 1. My population is 157, My infection is 0
+No. 3 land receive update command 1. My population is 161, My infection is 2
+No. 4 land receive update command 1. My population is 156, My infection is 2
+No. 5 land receive update command 1. My population is 163, My infection is 0
+No. 6 land receive update command 1. My population is 141, My infection is 1
+No. 7 land receive update command 1. My population is 173, My infection is 3
+No. 8 land receive update command 1. My population is 157, My infection is 1
+No. 9 land receive update command 1. My population is 171, My infection is 2
+No. 10 land receive update command 1. My population is 161, My infection is 1
+No. 11 land receive update command 1. My population is 149, My infection is 1
+No. 12 land receive update command 1. My population is 161, My infection is 2
+No. 13 land receive update command 1. My population is 153, My infection is 4
+No. 14 land receive update command 1. My population is 147, My infection is 1
+No. 15 land receive update command 1. My population is 174, My infection is 0
+No. 16 land receive update command 1. My population is 148, My infection is 1
+Now is month 19~~~3~~
+
+Now is month 19~~~11~~
+
+Now is month 19~~~12~~
+
+Now is month 19~~~14~~
+
+Now is month 19~~~2~~
+
+Now is month 19~~~16~~
+
+Now is month 19~~~7~~
+
+Now is month 19~~~5~~
+
+Now is month 19~~~8~~
+
+Now is month 19~~~13~~
+
+Now is month 19~~~1~~
+
+Now is month 19~~~6~~
+
+Now is month 19~~~15~~
+
+Now is month 19~~~10~~
+
+Now is month 19~~~4~~
+
+Now is month 19~~~9~~
+
+------------This is month 19----------
+No. 1 land receive update command 1. My population is 135, My infection is 1
+No. 2 land receive update command 1. My population is 180, My infection is 0
+No. 3 land receive update command 1. My population is 179, My infection is 1
+No. 4 land receive update command 1. My population is 150, My infection is 3
+No. 5 land receive update command 1. My population is 150, My infection is 1
+No. 6 land receive update command 1. My population is 139, My infection is 1
+No. 7 land receive update command 1. My population is 176, My infection is 1
+No. 8 land receive update command 1. My population is 161, My infection is 2
+No. 9 land receive update command 1. My population is 161, My infection is 0
+No. 10 land receive update command 1. My population is 165, My infection is 3
+No. 11 land receive update command 1. My population is 159, My infection is 1
+No. 12 land receive update command 1. My population is 166, My infection is 1
+No. 13 land receive update command 1. My population is 142, My infection is 2
+No. 14 land receive update command 1. My population is 149, My infection is 2
+No. 15 land receive update command 1. My population is 180, My infection is 0
+No. 16 land receive update command 1. My population is 153, My infection is 3
+Now is month 20~~~3~~
+
+Now is month 20~~~7~~
+
+Now is month 20~~~13~~
+
+Now is month 20~~~15~~
+
+Now is month 20~~~5~~
+
+Now is month 20~~~9~~
+
+Now is month 20~~~16~~
+
+Now is month 20~~~2~~
+
+Now is month 20~~~12~~
+
+Now is month 20~~~8~~
+
+Now is month 20~~~14~~
+
+Now is month 20~~~4~~
+
+Now is month 20~~~1~~
+
+Now is month 20~~~10~~
+
+Now is month 20~~~6~~
+
+Now is month 20~~~11~~
+
+Squirrel 58 have a baby 20.
+Squirrel 57 have a baby 21.
+Squirrel 65 have a baby 22.
+Squirrel 31 have a baby 23.
+Squirrel 51 have a baby 44.
+Squirrel 42 have a baby 66.
+Hi! I am Squirrel 66, my parent is 42.
+200 OK
+Squirrel 43 have a baby 67.
+Squirrel 40 have a baby 68.
+Hi! I am Squirrel 67, my parent is 43.
+200 OK
+Hi! I am Squirrel 68, my parent is 40.
+200 OK
+Squirrel 49 have a baby 69.
+Hi! I am Squirrel 69, my parent is 49.
+200 OK
+Now squirrel 44 is dead.
+Now squirrel 21 is dead.
+Now squirrel 22 is dead.
+Now squirrel 23 is dead.
+Now squirrel 20 is dead.
+------------This is month 20----------
+No. 1 land receive update command 1. My population is 164, My infection is 1
+No. 2 land receive update command 1. My population is 186, My infection is 0
+No. 3 land receive update command 1. My population is 189, My infection is 1
+No. 4 land receive update command 1. My population is 150, My infection is 3
+No. 5 land receive update command 1. My population is 160, My infection is 1
+No. 6 land receive update command 1. My population is 159, My infection is 1
+No. 7 land receive update command 1. My population is 175, My infection is 1
+No. 8 land receive update command 1. My population is 158, My infection is 1
+No. 9 land receive update command 1. My population is 167, My infection is 0
+No. 10 land receive update command 1. My population is 184, My infection is 3
+No. 11 land receive update command 1. My population is 164, My infection is 1
+No. 12 land receive update command 1. My population is 171, My infection is 1
+No. 13 land receive update command 1. My population is 151, My infection is 2
+No. 14 land receive update command 1. My population is 156, My infection is 2
+No. 15 land receive update command 1. My population is 178, My infection is 0
+No. 16 land receive update command 1. My population is 154, My infection is 3
+Now is month 21~~~7~~
+
+Now is month 21~~~9~~
+
+Now is month 21~~~16~~
+
+Now is month 21~~~5~~
+
+Now is month 21~~~3~~
+
+Now is month 21~~~2~~
+
+Now is month 21~~~10~~
+
+Now is month 21~~~1~~
+
+Now is month 21~~~11~~
+
+Now is month 21~~~15~~
+
+Now is month 21~~~6~~
+
+Now is month 21~~~13~~
+
+Now is month 21~~~14~~
+
+Now is month 21~~~8~~
+
+Now is month 21~~~4~~
+
+Now is month 21~~~12~~
+
+------------This is month 21----------
+No. 1 land receive update command 1. My population is 168, My infection is 1
+No. 2 land receive update command 1. My population is 180, My infection is 1
+No. 3 land receive update command 1. My population is 181, My infection is 0
+No. 4 land receive update command 1. My population is 144, My infection is 1
+No. 5 land receive update command 1. My population is 162, My infection is 0
+No. 6 land receive update command 1. My population is 161, My infection is 2
+No. 7 land receive update command 1. My population is 186, My infection is 4
+No. 8 land receive update command 1. My population is 170, My infection is 1
+No. 9 land receive update command 1. My population is 175, My infection is 1
+No. 10 land receive update command 1. My population is 183, My infection is 2
+No. 11 land receive update command 1. My population is 176, My infection is 1
+No. 12 land receive update command 1. My population is 176, My infection is 1
+No. 13 land receive update command 1. My population is 166, My infection is 3
+No. 14 land receive update command 1. My population is 159, My infection is 0
+No. 15 land receive update command 1. My population is 180, My infection is 3
+No. 16 land receive update command 1. My population is 158, My infection is 0
+Now is month 22~~~2~~
+
+Now is month 22~~~7~~
+
+Now is month 22~~~1~~
+
+Now is month 22~~~5~~
+
+Now is month 22~~~3~~
+
+Now is month 22~~~8~~
+
+Now is month 22~~~10~~
+
+Now is month 22~~~6~~
+
+Now is month 22~~~11~~
+
+Now is month 22~~~12~~
+
+Now is month 22~~~14~~
+
+Now is month 22~~~4~~
+
+Now is month 22~~~15~~
+
+Now is month 22~~~13~~
+
+Now is month 22~~~9~~
+
+Now is month 22~~~16~~
+
+Squirrel 58 have a baby 20.
+Squirrel 57 have a baby 21.
+Squirrel 60 have a baby 22.
+Squirrel 67 have a baby 23.
+Squirrel 68 have a baby 44.
+Squirrel 55 have a baby 70.
+Hi! I am Squirrel 70, my parent is 55.
+200 OK
+Squirrel 69 have a baby 71.
+Hi! I am Squirrel 71, my parent is 69.
+200 OK
+Squirrel 27 have a baby 72.
+Hi! I am Squirrel 72, my parent is 27.
+200 OK
+Now squirrel 21 is dead.
+Squirrel 39 have a baby 21.
+Squirrel 47 have a baby 73.
+Hi! I am Squirrel 73, my parent is 47.
+200 OK
+Squirrel 36 have a baby 74.
+Hi! I am Squirrel 74, my parent is 36.
+200 OK
+------------This is month 22----------
+No. 1 land receive update command 1. My population is 189, My infection is 1
+No. 2 land receive update command 1. My population is 172, My infection is 1
+No. 3 land receive update command 1. My population is 169, My infection is 0
+No. 4 land receive update command 1. My population is 153, My infection is 1
+No. 5 land receive update command 1. My population is 186, My infection is 0
+No. 6 land receive update command 1. My population is 181, My infection is 2
+No. 7 land receive update command 1. My population is 187, My infection is 4
+No. 8 land receive update command 1. My population is 168, My infection is 1
+No. 9 land receive update command 1. My population is 185, My infection is 1
+No. 10 land receive update command 1. My population is 178, My infection is 2
+No. 11 land receive update command 1. My population is 187, My infection is 1
+No. 12 land receive update command 1. My population is 172, My infection is 1
+No. 13 land receive update command 1. My population is 165, My infection is 3
+No. 14 land receive update command 1. My population is 175, My infection is 0
+No. 15 land receive update command 1. My population is 177, My infection is 3
+No. 16 land receive update command 1. My population is 173, My infection is 0
+Now is month 23~~~2~~
+
+Now is month 23~~~3~~
+
+Now is month 23~~~5~~
+
+Now is month 23~~~12~~
+
+Now is month 23~~~14~~
+
+Now is month 23~~~13~~
+
+Now is month 23~~~7~~
+
+Now is month 23~~~10~~
+
+Now is month 23~~~1~~
+
+Now is month 23~~~6~~
+
+Now is month 23~~~8~~
+
+Now is month 23~~~16~~
+
+Now is month 23~~~11~~
+
+Now squirrel 22 is dead.
+Now is month 23~~~9~~
+
+Now is month 23~~~15~~
+
+Now is month 23~~~4~~
+
+Now squirrel 23 is dead.
+Now squirrel 44 is dead.
+Now squirrel 20 is dead.
+Now squirrel 21 is dead.
+------------This is month 23----------
+No. 1 land receive update command 1. My population is 191, My infection is 1
+No. 2 land receive update command 1. My population is 174, My infection is 0
+No. 3 land receive update command 1. My population is 170, My infection is 0
+No. 4 land receive update command 1. My population is 175, My infection is 0
+No. 5 land receive update command 1. My population is 193, My infection is 0
+No. 6 land receive update command 1. My population is 188, My infection is 0
+No. 7 land receive update command 1. My population is 191, My infection is 0
+No. 8 land receive update command 1. My population is 170, My infection is 1
+No. 9 land receive update command 1. My population is 205, My infection is 1
+No. 10 land receive update command 1. My population is 178, My infection is 0
+No. 11 land receive update command 1. My population is 213, My infection is 0
+No. 12 land receive update command 1. My population is 177, My infection is 0
+No. 13 land receive update command 1. My population is 175, My infection is 1
+No. 14 land receive update command 1. My population is 186, My infection is 1
+No. 15 land receive update command 1. My population is 179, My infection is 0
+No. 16 land receive update command 1. My population is 196, My infection is 0
+Now is month 24~~~8~~
+
+Now is month 24~~~14~~
+
+Now is month 24~~~16~~
+
+Now is month 24~~~13~~
+
+Now is month 24~~~15~~
+
+Now is month 24~~~9~~
+
+Now is month 24~~~6~~
+
+Now is month 24~~~12~~
+
+Now is month 24~~~3~~
+
+Now is month 24~~~11~~
+
+Now is month 24~~~7~~
+
+Now is month 24~~~10~~
+
+Now is month 24~~~5~~
+
+Now is month 24~~~4~~
+
+Now is month 24~~~1~~
+
+Now is month 24~~~2~~
+
+Now landcell 1 workerStatus is 1.
+Now landcell 7 workerStatus is 1.
+Now landcell 15 workerStatus is 1.
+Now landcell 3 workerStatus is 1.
+Now landcell 16 workerStatus is 1.
+Now landcell 9 workerStatus is 1.
+Now landcell 11 workerStatus is 1.
+Now landcell 13 workerStatus is 1.
+Now landcell 6 workerStatus is 1.
+Now landcell 14 workerStatus is 1.
+Now landcell 12 workerStatus is 1.
+Now landcell 10 workerStatus is 1.
+Now landcell 2 workerStatus is 1.
+Now landcell 4 workerStatus is 1.
+Now landcell 5 workerStatus is 1.
+Now landcell 8 workerStatus is 1.
+Now squirrel 27 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 27 out.
+Now squirrel 30 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 30 out.
+Now squirrel 35 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 35 out.
+Now squirrel 25 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 25 out.
+Now squirrel 26 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 26 out.
+Now squirrel 28 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 28 out.
+Now squirrel 72 workerStatus is 1. It jumps 32. Catch disease: 0
+Squirrel 72 out.
+Now squirrel 33 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 33 out.
+Now squirrel 34 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 34 out.
+Now squirrel 29 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 29 out.
+Now squirrel 32 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 32 out.
+Now squirrel 24 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 24 out.
+Now squirrel 31 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 31 out.
+Now squirrel 18 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 18 out.
+Now squirrel 19 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 19 out.
+Now squirrel 59 workerStatus is 1. It jumps 182. Catch disease: 0
+Squirrel 59 out.
+Now squirrel 58 workerStatus is 1. It jumps 182. Catch disease: 0
+Squirrel 58 out.
+Now squirrel 57 workerStatus is 1. It jumps 182. Catch disease: 0
+Squirrel 57 out.
+Now squirrel 46 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 46 out.
+Now squirrel 39 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 39 out.
+Now squirrel 51 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 51 out.
+Now squirrel 41 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 41 out.
+Now squirrel 60 workerStatus is 1. It jumps 182. Catch disease: 0
+Squirrel 60 out.
+Now squirrel 54 workerStatus is 1. It jumps 282. Catch disease: 0
+Squirrel 54 out.
+Now squirrel 42 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 42 out.
+Now squirrel 61 workerStatus is 1. It jumps 182. Catch disease: 0
+Squirrel 61 out.
+Now squirrel 66 workerStatus is 1. It jumps 82. Catch disease: 0
+Squirrel 66 out.
+Now squirrel 38 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 38 out.
+Now squirrel 62 workerStatus is 1. It jumps 182. Catch disease: 0
+Squirrel 62 out.
+Now squirrel 37 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 37 out.
+Now squirrel 67 workerStatus is 1. It jumps 82. Catch disease: 0
+Squirrel 67 out.
+Now squirrel 43 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 43 out.
+Now squirrel 40 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 40 out.
+Now squirrel 47 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 47 out.
+Now squirrel 48 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 48 out.
+Now squirrel 63 workerStatus is 1. It jumps 132. Catch disease: 0
+Squirrel 63 out.
+Now squirrel 73 workerStatus is 1. It jumps 32. Catch disease: 0
+Squirrel 73 out.
+Now squirrel 52 workerStatus is 1. It jumps 382. Catch disease: 0
+Squirrel 52 out.
+Now squirrel 68 workerStatus is 1. It jumps 82. Catch disease: 0
+Squirrel 68 out.
+Now squirrel 50 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 50 out.
+Now squirrel 53 workerStatus is 1. It jumps 332. Catch disease: 0
+Squirrel 53 out.
+Now squirrel 55 workerStatus is 1. It jumps 282. Catch disease: 0
+Squirrel 55 out.
+Now squirrel 45 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 45 out.
+Now squirrel 56 workerStatus is 1. It jumps 282. Catch disease: 0
+Squirrel 56 out.
+Now squirrel 64 workerStatus is 1. It jumps 132. Catch disease: 0
+Squirrel 64 out.
+Now squirrel 70 workerStatus is 1. It jumps 33. Catch disease: 0
+Squirrel 70 out.
+Now squirrel 49 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 49 out.
+Now squirrel 69 workerStatus is 1. It jumps 82. Catch disease: 0
+Squirrel 69 out.
+Now squirrel 65 workerStatus is 1. It jumps 132. Catch disease: 0
+Squirrel 65 out.
+Now squirrel 71 workerStatus is 1. It jumps 33. Catch disease: 0
+Squirrel 71 out.
+Now squirrel 74 workerStatus is 1. It jumps 32. Catch disease: 0
+Squirrel 74 out.
+Now squirrel 36 workerStatus is 1. It jumps 481. Catch disease: 0
+Squirrel 36 out.
+Squirrel 20 out.
+Squirrel 21 out.
+Squirrel 22 out.
+Squirrel 44 out.
+Squirrel 23 out.

@@ -1,0 +1,65 @@
+MPT ERROR: Rank 0(g:0) received signal SIGSEGV(11).
+	Process ID: 11653, Host: r1i2n29, Program: /lustre/home/d171/s1951167/course_parallel_design_pattern/parallel_design_pattern/MyCWcode/provided/c/squirrel
+	MPT Version: HPE MPT 2.18  10/02/18 04:00:51
+
+MPT: --------stack traceback-------
+MPT: Attaching to program: /proc/11653/exe, process 11653
+MPT: [Thread debugging using libthread_db enabled]
+MPT: Using host libthread_db library "/lib64/libthread_db.so.1".
+MPT: (no debugging symbols found)...done.
+MPT: (no debugging symbols found)...done.
+MPT: (no debugging symbols found)...done.
+MPT: (no debugging symbols found)...done.
+MPT: (no debugging symbols found)...done.
+MPT: (no debugging symbols found)...done.
+MPT: (no debugging symbols found)...done.
+MPT: (no debugging symbols found)...done.
+MPT: (no debugging symbols found)...done.
+MPT: (no debugging symbols found)...done.
+MPT: (no debugging symbols found)...done.
+MPT: (no debugging symbols found)...done.
+MPT: (no debugging symbols found)...done.
+MPT: 0x00002aaaaafdfc5c in waitpid () from /lib64/libpthread.so.0
+MPT: Missing separate debuginfos, use: debuginfo-install glibc-2.17-105.el7.x86_64 libbitmask-2.0-sgi714r2.rhel7.x86_64 libcpuset-1.0-sgi714r3.rhel7.x86_64 libcxgb3-1.3.1-8.el7.x86_64 libcxgb4-1.3.5-3.el7.x86_64 libgcc-4.8.5-4.el7.x86_64 libibverbs-1.1.8-8.el7.x86_64 libipathverbs-1.3-2.el7.x86_64 libmlx4-1.0.6-5.el7.x86_64 libmlx5-1.0.2-1.el7.x86_64 libmthca-1.0.6-13.el7.x86_64 libnes-1.1.4-2.el7.x86_64 libnl3-3.2.21-10.el7.x86_64 xpmem-1.6-sgi714r8.rhel7.x86_64
+MPT: (gdb) #0  0x00002aaaaafdfc5c in waitpid () from /lib64/libpthread.so.0
+MPT: #1  0x00002aaaab711ff6 in mpi_sgi_system (
+MPT: #2  MPI_SGI_stacktraceback (
+MPT:     header=header@entry=0x7fffffffcb00 "MPT ERROR: Rank 0(g:0) received signal SIGSEGV(11).\n\tProcess ID: 11653, Host: r1i2n29, Program: /lustre/home/d171/s1951167/course_parallel_design_pattern/parallel_design_pattern/MyCWcode/provided/c/sq"...) at sig.c:340
+MPT: #3  0x00002aaaab7121f2 in first_arriver_handler (signo=signo@entry=11, 
+MPT:     stack_trace_sem=stack_trace_sem@entry=0x2aaab68c0080) at sig.c:489
+MPT: #4  0x00002aaaab71258b in slave_sig_handler (signo=11, 
+MPT:     siginfo=<optimized out>, extra=<optimized out>) at sig.c:564
+MPT: #5  <signal handler called>
+MPT: #6  MPI_SGI_request_test (request=request@entry=0x7fffffffd6d0, 
+MPT:     status=status@entry=0x604140 <mpi_sgi_status_ignore>, 
+MPT:     set=set@entry=0x7fffffffd67c, rc=rc@entry=0x7fffffffd5c0) at req.c:1273
+MPT: #7  0x00002aaaab65de47 in MPI_SGI_request_wait (
+MPT:     request=request@entry=0x7fffffffd6d0, 
+MPT:     status=0x604140 <mpi_sgi_status_ignore>, set=set@entry=0x7fffffffd67c, 
+MPT:     gen_rc=gen_rc@entry=0x7fffffffd5c0) at req.c:1588
+MPT: #8  0x00002aaaab72c3ac in MPI_SGI_waitall (
+MPT:     array_of_statuses=0x604140 <mpi_sgi_status_ignore>, 
+MPT:     array_of_requests=<optimized out>, count=34) at waitall.c:23
+MPT: #9  PMPI_Waitall (count=34, array_of_requests=<optimized out>, 
+MPT:     array_of_statuses=0x604140 <mpi_sgi_status_ignore>) at waitall.c:80
+MPT: #10 0x0000000000402cd6 in actorCode ()
+MPT: #11 0x0000002b0000002a in ?? ()
+MPT: #12 0x0000002d0000002c in ?? ()
+MPT: #13 0x0000002f0000002e in ?? ()
+MPT: #14 0x0000003100000030 in ?? ()
+MPT: #15 0x0000003300000032 in ?? ()
+MPT: #16 0x00007fffffffd8c8 in ?? ()
+MPT: #17 0x0000000100000000 in ?? ()
+MPT: #18 0x0000000000000000 in ?? ()
+MPT: (gdb) A debugging session is active.
+MPT: 
+MPT: 	Inferior 1 [process 11653] will be detached.
+MPT: 
+MPT: Quit anyway? (y or n) [answered Y; input not from terminal]
+MPT: Detaching from program: /proc/11653/exe, process 11653
+
+MPT: -----stack traceback ends-----
+MPT: On host r1i2n29, Program /lustre/home/d171/s1951167/course_parallel_design_pattern/parallel_design_pattern/MyCWcode/provided/c/squirrel, Rank 0, Process 11653: Dumping core on signal SIGSEGV(11) into directory /lustre/home/d171/s1951167/course_parallel_design_pattern/parallel_design_pattern/MyCWcode/provided/c
+MPT ERROR: MPI_COMM_WORLD rank 0 has terminated without calling MPI_Finalize()
+	aborting job
+MPT: Received signal 11

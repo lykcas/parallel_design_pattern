@@ -7,8 +7,8 @@
 #include "sauirrel_queue.h"
 
 
-#define LANDCELL 16
-#define SQUIRREL 34
+#define LANDCELL 2
+#define SQUIRREL 4
 #define BUFFSIZE 5000
 #define MONTH 24
 
@@ -33,8 +33,18 @@ struct squirrels {
     QElemType e;
 };
 
-void squirrelWorkerCode(struct squirrels *squirrel, int id);
-void clockWorkerCode();
-void landcellWorkerCode(struct landcell *land, int id);
+void initMPI(int argc, char *argv[]);
+void workerLandCode(int id);
+void workerClockCode(int id);
+void workerSquirrelCode(int id);
+void workerCode();
+void initWorld(MPI_Request *landrequest, MPI_Request *clockrequest, MPI_Request *squirrelrequest);
+void actorCode();
+//void workers(void (*fn_pointer)(int), int id);
+void runSimulation();
+//void squirrelWorkerCode(struct squirrels *squirrel, int id);
+//void clockWorkerCode();
+//void landcellWorkerCode(struct landcell *land, int id);
+
 
 #endif //UNTITLED_SQUIRREL_H
