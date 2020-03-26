@@ -140,16 +140,13 @@ void workerClockCode(int id) {
 }
 
 void workerSquirrelCode(int id) {
-#ifdef DEBUG
-    printf("I am %d squirrel\n", id);
-#endif
-    printf("I am %d squirrel\n", id);
+    
     // Init a struct of squirrel
     struct squirrels *squirrel;
     squirrel = (struct squirrels *) malloc(sizeof(struct squirrels));
     // Do as squirrel's do
-//    squirrelWorkerCode(squirrel, id);
-// 初始化
+    //    squirrelWorkerCode(squirrel, id);
+    // 初始化
     int myRank;
     MPI_Comm_rank(MPI_COMM_WORLD, &myRank);
     squirrel->id = id;
@@ -162,10 +159,12 @@ void workerSquirrelCode(int id) {
     if (parentId == 0) {
         squirrel->x = 0.0;
         squirrel->y = 0.0;
-//        3 8
-        if ((LANDCELL + 3) < myRank && myRank < (LANDCELL + 6)) {
+        squirrel->whetherInfect = 0;
+    //        3 8
+        if ((LANDCELL + 3) < myRank && myRank < (LANDCELL + 8)) {
             squirrel->whetherInfect = 1;
         }
+        printf("I am %d squirrel, am I healthy? %d\n", id, squirrel->whetherInfect);
     } else {
         MPI_Recv(position, 2, MPI_FLOAT, parentId, 1, MPI_COMM_WORLD, &status); // 接收父松鼠的位置
         squirrel->x = position[0];
@@ -178,16 +177,16 @@ void workerSquirrelCode(int id) {
     squirrel->switch_infect = 0;
     squirrel->population50 = 0.0;
     InitQueue(&squirrel->q);
-//    printf("---Squirrel %d, %d start to ready.\n", myRank, id);
-//    printf("I am a squirrel %d and I am %d infect.\n", id, squirrel->whetherInfect);
+    //    printf("---Squirrel %d, %d start to ready.\n", myRank, id);
+    //    printf("I am a squirrel %d and I am %d infect.\n", id, squirrel->whetherInfect);
 
-//    int shouldStop = shouldWorkerStop();
+    //    int shouldStop = shouldWorkerStop();
     int workerStatus = 0, nosleep = 1;
     int asd = 0;
     while (!workerStatus && nosleep) {
         MPI_Request req;
-//        printf("asdfghjkl--------%d--------.\n", asd);
-//        asd++;
+    //    printf("asdfghjkl--------%d--------.\n", asd);
+    //         asd++;
         float x = squirrel->x, y = squirrel->y;
         squirrelStep(x, y, &squirrel->x, &squirrel->y, &seed);
         position[0] = squirrel->x;
@@ -200,24 +199,24 @@ void workerSquirrelCode(int id) {
         int info_squirrel[2] = {0};
         info_squirrel[0] = squirrel->id;
         info_squirrel[1] = squirrel->whetherInfect;
-//        printf("hereherehere.\n");
+    //        printf("hereherehere.\n");
         MPI_Isend(info_squirrel, 2, MPI_INT, this_land_Pid, 0, MPI_COMM_WORLD, &req); //给landcell互通消息
 
-//        MPI_Wait(&reqq, MPI_STATUS_IGNORE);
+    //        MPI_Wait(&reqq, MPI_STATUS_IGNORE);
         int info_landcell[2] = {0}; // 【0】是populationInflux，【1】是infectionLevel
         workerStatus = shouldWorkerStop();
         if (workerStatus == 1) {
             printf("Now squirrel %d workerStatus is %d. It jumps %d. Catch disease: %d\n", id, workerStatus, squirrel->step_total, squirrel->switch_infect);
             break;
         }
-//        printf("Squirrel %d is waiting.\n", myRank);
+    //        printf("Squirrel %d is waiting.\n", myRank);
         MPI_Recv(info_landcell, 2, MPI_INT, this_land_Pid, MPI_ANY_TAG, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
-//        printf("-Squirrel %d, %d Receive information from landcell %d.\n", myRank, squirrel->id, this_land_Pid);
+    //        printf("-Squirrel %d, %d Receive information from landcell %d.\n", myRank, squirrel->id, this_land_Pid);
         squirrel->population50 += info_landcell[0]; //把populationInflux 加到松鼠info里
         EnQueue(&squirrel->q, info_landcell[1]);
         // 判断是否生孩子
         if(squirrel->step_50 == 50) {
-//            printf("---Squirrel %d start to be an adult.\n", id);
+    //            printf("---Squirrel %d start to be an adult.\n", id);
             squirrel->population50 = squirrel->population50 / 50.0;
             int giveBirth = 0;
             giveBirth = willGiveBirth(squirrel->population50, &seed);
@@ -232,9 +231,9 @@ void workerSquirrelCode(int id) {
             squirrel->step_50 = 0;
             squirrel->population50 = 0;
         }
-//        // 判断是否染病
+       // 判断是否染病
         if (squirrel->step_total >=50 && squirrel->switch_infect == 0) {
-//            printf("进来了.\n");
+    //            printf("进来了.\n");
             float infect50 = QueueCount(squirrel->q) / 50.0;
             int catchDisease = 0;
             catchDisease = willCatchDisease(infect50, &seed);
@@ -247,11 +246,11 @@ void workerSquirrelCode(int id) {
         else if (squirrel->whetherInfect == 1) {
             if (squirrel->switch_infect < 50) {
                 squirrel->switch_infect ++;
-//                printf("I've live with %d steps, hahaha.\n", squirrel->switch_infect);
+    //                printf("I've live with %d steps, hahaha.\n", squirrel->switch_infect);
             } else { // 已染病且至少走了50步了，判断是否死亡
                 int whetherDie = 0;
                 whetherDie = willDie(&seed);
-//                printf("I am squirrel %d, Will I die?????????? Answer: %d\n", myRank, whetherDie);
+    //                printf("I am squirrel %d, Will I die?????????? Answer: %d\n", myRank, whetherDie);
                 if (whetherDie) { // 如果被判死刑
                     printf("Now squirrel %d is dead.\n", myRank);
                     nosleep = workerSleep();
@@ -260,12 +259,12 @@ void workerSquirrelCode(int id) {
         }
         struct timespec ts, ts1;
         ts.tv_nsec = 100000000; // 0.1s
-//        ts.tv_nsec = 10000000; // 0.01s
+    //        ts.tv_nsec = 10000000; // 0.01s
         ts.tv_sec = 0;
         nanosleep(&ts, &ts1);
 
 
-//        MPI_Request_free(&req);
+    //        MPI_Request_free(&req);
     }
     printf("Squirrel %d out.\n", id);
 }
@@ -277,7 +276,8 @@ void workerCode() {
     (*fun_ptr_arr[whoamI[0]-1])(whoamI[1]);
 }
 
-void initWorld(MPI_Request *landrequest, MPI_Request *clockrequest, MPI_Request *squirrelrequest) {
+void initWorld() {
+    MPI_Request landrequest[LANDCELL], clockrequest, squirrelrequest[SQUIRREL];
     int i, whoyouare[2] = {0};
     // Allocate the specific number of processes to landcell workers
     for (i = 0; i < LANDCELL; i++) {
@@ -291,7 +291,7 @@ void initWorld(MPI_Request *landrequest, MPI_Request *clockrequest, MPI_Request 
     int clockworkerPid = startWorkerProcess();
     whoyouare[0] = 2;
     whoyouare[1] = clockworkerPid;
-    MPI_Isend(whoyouare, 2, MPI_INT, clockworkerPid, 0, MPI_COMM_WORLD, clockrequest);
+    MPI_Isend(whoyouare, 2, MPI_INT, clockworkerPid, 0, MPI_COMM_WORLD, &clockrequest);
 
     // Allocate the specific number of processes to squirrel workers
     for (i = 0; i < SQUIRREL; i++) {
@@ -300,23 +300,22 @@ void initWorld(MPI_Request *landrequest, MPI_Request *clockrequest, MPI_Request 
         whoyouare[1] = squirrelworkerPid;
         MPI_Isend(whoyouare, 2, MPI_INT, squirrelworkerPid, 0, MPI_COMM_WORLD, &squirrelrequest[i]);
     }
-}
 
-void actorCode() {
-    MPI_Request landrequest[LANDCELL], clockrequest, squirrelrequest[SQUIRREL];
-    // Init the world
-    initWorld(&landrequest[LANDCELL], &clockrequest, &squirrelrequest[SQUIRREL]);
     // Check allocating success
     MPI_Waitall(LANDCELL, landrequest, MPI_STATUS_IGNORE);
     MPI_Wait(&clockrequest, MPI_STATUS_IGNORE);
     MPI_Waitall(SQUIRREL, squirrelrequest, MPI_STATUS_IGNORE);
-#ifdef DEBUG
-    printf("Init landcell success!\n Init clock success!\n Init squirrel success!\n");
-#endif
+}
+
+void actorCode() {
+    
+    // Init the world
+    initWorld();
+    
     printf("Init landcell success!\n Init clock success!\n Init squirrel success!\n");\
-    MPI_Request_free(landrequest);
-    MPI_Request_free(squirrelrequest);
-    MPI_Request_free(&clockrequest);
+    // MPI_Request_free(landrequest);
+    // MPI_Request_free(squirrelrequest);
+    // MPI_Request_free(&clockrequest);
 
     // Keep working
     int workstatus = masterPoll();

@@ -7,8 +7,8 @@
 #include "sauirrel_queue.h"
 
 
-#define LANDCELL 2
-#define SQUIRREL 4
+#define LANDCELL 16
+#define SQUIRREL 34
 #define BUFFSIZE 5000
 #define MONTH 24
 
@@ -38,7 +38,7 @@ void workerLandCode(int id);
 void workerClockCode(int id);
 void workerSquirrelCode(int id);
 void workerCode();
-void initWorld(MPI_Request *landrequest, MPI_Request *clockrequest, MPI_Request *squirrelrequest);
+void initWorld();
 void actorCode();
 //void workers(void (*fn_pointer)(int), int id);
 void runSimulation();
