@@ -1,6 +1,3 @@
-//
-// Created by YUKE LI on 2020/3/11.
-//
 #ifdef __cplusplus
 extern "C" {
 #endif
@@ -25,8 +22,8 @@ typedef struct QNode {
 }QNode, *QueuePtr;
 
 typedef struct {
-    QueuePtr front;  //队头指针
-    QueuePtr rear;  //队尾指针
+    QueuePtr front; 
+    QueuePtr rear;  
 }LinkQueue;
 
 // Init am empty queue
@@ -46,7 +43,6 @@ Status EnQueue(LinkQueue *, QElemType);
 // Delete the first element of queue
 Status DeQueue(LinkQueue *, QElemType *);
 // Get all elements of queue
-//void QueueTraverse(LinkQueue , void(*vi)(QElemType));
 void QueueTraverse(LinkQueue);
 // Get the sum of queue
 int QueueCount(LinkQueue);

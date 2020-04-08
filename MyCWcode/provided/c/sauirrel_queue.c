@@ -6,9 +6,7 @@
 
 
 /**
- * 操作结果：构造一个空队列 Q
- * @param Q
- * @return
+ * Operation result: construct an empty queue Q
  */
 Status InitQueue(LinkQueue *Q) {
     if (!(Q->front = Q->rear = (QueuePtr)malloc(sizeof(struct QNode)))) {
@@ -18,40 +16,29 @@ Status InitQueue(LinkQueue *Q) {
     return OK;
 }
 
-/**
- * 遍历函数
- * @param e
- */
-//void vi(QElemType e) {
-//    printf("%d ",e);
-//}
 
 /**
- * 初始条件：队列 Q 存在
- * 操作结果：队列 Q 被销毁
- * @param Q
- * @return
+ * Initial condition: queue Q exists
+ * Operation result: the queue Q is destroyed
  */
 Status DestroyQueue(LinkQueue *Q) {
-    while (Q->front) {  //指向队尾时结束循环
-        Q->rear = Q->front->next;  // 队尾指针指向队头指针的下一个结点
-        free(Q->front);  //释放队头结点
-        Q->front = Q->rear;  //修改队头指针
+    while (Q->front) {  
+        Q->rear = Q->front->next;  
+        free(Q->front); 
+        Q->front = Q->rear;  
     }
     return OK;
 }
 
 /**
- * 初始条件：队列 Q 存在
- * 操作结果：清空队列 Q
- * @param Q
- * @return
+ * Initial condition: queue Q exists
+ * Operation result: Clear queue Q
  */
 Status ClearQueue(LinkQueue *Q) {
     QueuePtr p, q;
-    Q->rear = Q->front;  //队尾指针指向头结点
-    p = Q->front->next;  //p 指向队列第一个元素
-    Q->front->next = NULL;  //队头指针 next 域置空
+    Q->rear = Q->front; 
+    p = Q->front->next;  
+    Q->front->next = NULL; 
     while (p) {
         q = p->next;
         free(p);
@@ -62,10 +49,8 @@ Status ClearQueue(LinkQueue *Q) {
 }
 
 /**
- * 初始条件：队列 Q 存在
- * 操作结果：若 Q 为空队列，则返回 true，否则返回 false
- * @param Q
- * @return
+ * Initial condition: queue Q exists
+ * Operation result: true if Q is an empty queue, false otherwise
  */
 Status QueueEmpty(LinkQueue Q) {
     if (Q.front->next == NULL) {
@@ -76,14 +61,12 @@ Status QueueEmpty(LinkQueue Q) {
 }
 
 /**
- * 初始条件：队列 Q 存在
- * 操作结果：返回 Q 中元素个数，即队列长度
- * @param Q
- * @return
+ * Initial condition: queue Q exists
+ * Operation result: return the number of elements in Q, namely the queue length
  */
 int QueueLength(LinkQueue Q) {
-    int i = 0;  //计数器
-    QueuePtr p = Q.front->next;  //p 指向队头元素
+    int i = 0; 
+    QueuePtr p = Q.front->next; 
     while (p) {
         i++;
         p = p->next;
@@ -92,11 +75,8 @@ int QueueLength(LinkQueue Q) {
 }
 
 /**
- * 初始条件：队列 Q 存在且非空
- * 操作结果：返回 Q 中队头元素
- * @param Q
- * @param e
- * @return
+ * Initial condition: queue Q exists and is not empty
+ * Operation result: return Q squadron element
  */
 Status GetHead(LinkQueue Q, QElemType *e) {
     if (Q.front != Q.rear) {
@@ -106,33 +86,27 @@ Status GetHead(LinkQueue Q, QElemType *e) {
     return INFEASIBLE;
 }
 /**
- * 初始条件：队列 Q 存在且非空
- * 操作结果：删除 Q 的队头元素，且用 e 返回
- * @param Q
- * @param e
- * @return
+ * Initial condition: queue Q exists and is not empty
+ * Operation result: delete the head element of Q and return with e
  */
 Status DeQueue(LinkQueue *Q, QElemType *e) {
     QueuePtr p;
-    if (Q->front == Q->rear) {  //判断是否为空队列
+    if (Q->front == Q->rear) { 
         return ERROR;
     }
-    p = Q->front->next;  //p 指向队头元素
+    p = Q->front->next; 
     *e = p->data;
-    Q->front->next = p->next;  //修改头指针
-    if (Q->rear == p) {  //如果删除的是队列最后一个元素
-        Q->rear = Q->front;  //队尾指针指向头结点
+    Q->front->next = p->next; 
+    if (Q->rear == p) {  
+        Q->rear = Q->front;  
     }
     free(p);
     return OK;
 }
 
 /**
- * 初始条件：队列 Q 存在
- * 操作结果：插入入元素 e 为 Q 的新队尾元素
- * @param Q
- * @param e
- * @return
+ * Initial condition: queue Q exists
+ * Operation result: insert the new element tail element with element e as Q
  */
 Status EnQueue(LinkQueue *Q, QElemType e) {
     LinkQueue tQ = *Q;
@@ -143,26 +117,24 @@ Status EnQueue(LinkQueue *Q, QElemType e) {
         DeQueue(Q, &heade);
     }
     QueuePtr p;
-    p = (QueuePtr)malloc(sizeof(struct QNode));  //开辟新结点
+    p = (QueuePtr)malloc(sizeof(struct QNode)); 
     p->data = e;
     p->next = NULL;
-    Q->rear->next = p;  //将新结点插入到队尾
-    Q->rear = p;  //修改队尾指针
+    Q->rear->next = p; 
+    Q->rear = p;  
     return OK;
 }
 
 
 
 /**
- * 初始条件：队列 Q 存在且非空
- * 操作结果：从队头到队尾，依次对遍历队列中每个元素
- * @param Q
- * @param vi
+ * Initial condition: queue Q exists and is not empty
+ * Operation result: traverse each element in the queue from the beginning to the end
  */
 void QueueTraverse(LinkQueue Q) {
-    QueuePtr p = Q.front->next;  //p 指向队头元素
+    QueuePtr p = Q.front->next; 
     while (p) {
-        printf("%d ", p->data);  //遍历
+        printf("%d ", p->data);  
         p = p->next;
     }
     printf("\n");
@@ -178,38 +150,3 @@ int QueueCount(LinkQueue Q) {
     return count;
 }
 
-
-//int main() {
-//    LinkQueue q;
-//    QElemType e;
-//
-//    InitQueue(&q);
-//    printf("队列的长度：%d\n", QueueLength(q));
-//    printf("队列是否为空：%d\n", QueueEmpty(q));
-//    EnQueue(&q, 3);
-//    EnQueue(&q, 4);
-//    EnQueue(&q, 5);
-//    QueueTraverse(q, vi);
-//    printf("Count = %d\n", QueueCount(q));
-//    EnQueue(&q, 6);
-//    QueueTraverse(q, vi);
-//    EnQueue(&q, 7);
-//    printf("Count = %d\n", QueueCount(q));
-//    QueueTraverse(q, vi);
-//    EnQueue(&q, 8);
-//    printf("Count = %d\n", QueueCount(q));
-//    QueueTraverse(q, vi);
-//    EnQueue(&q, 9);
-//    QueueTraverse(q, vi);
-//    printf("队列的长度：%d\n", QueueLength(q));
-//    printf("队列是否为空：%d\n", QueueEmpty(q));
-//    GetHead(q, &e);
-//    printf("队列的头元素：%d\n", e);
-//    DeQueue(&q, &e);
-//    QueueTraverse(q, vi);
-//    ClearQueue(&q);
-//    printf("队列的长度：%d\n", QueueLength(q));
-//    printf("队列是否为空：%d\n", QueueEmpty(q));
-//
-//    DestroyQueue(&q);
-//}

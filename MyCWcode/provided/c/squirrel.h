@@ -1,7 +1,3 @@
-//
-// Created by YUKE LI on 2020/3/11.
-//
-
 #ifndef UNTITLED_SQUIRREL_H
 #define UNTITLED_SQUIRREL_H
 #include "sauirrel_queue.h"
@@ -33,18 +29,22 @@ struct squirrels {
     QElemType e;
 };
 
+// Init the MPI environment
 void initMPI(int argc, char *argv[]);
+// Implement what a land cell need to do
 void workerLandCode(int id);
+// Implement what a clock need to do
 void workerClockCode(int id);
+// Implement what a squirrel need to do
 void workerSquirrelCode(int id);
+// The wrapper of workerLandCode(), workerClockCode() and workerSquirrelCode()
 void workerCode();
+// Implement init the squirrel world by Master Actor
 void initWorld();
+// Implement what a Master Actor need to do
 void actorCode();
-//void workers(void (*fn_pointer)(int), int id);
+// Entry to all code
 void runSimulation();
-//void squirrelWorkerCode(struct squirrels *squirrel, int id);
-//void clockWorkerCode();
-//void landcellWorkerCode(struct landcell *land, int id);
 
 
 #endif //UNTITLED_SQUIRREL_H
