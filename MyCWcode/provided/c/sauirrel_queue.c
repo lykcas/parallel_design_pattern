@@ -15,7 +15,6 @@ Status InitQueue(LinkQueue *Q) {
         exit(OVERFLOW);
     }
     Q->front->next = NULL;
-    printf("200 OK\n");
     return OK;
 }
 

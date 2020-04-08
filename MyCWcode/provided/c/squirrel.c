@@ -21,17 +21,14 @@ void initMPI(int argc, char *argv[]) {
 }
 
 void workerLandCode(int id) {
-#ifdef DEBUG
-    printf("I am %d landcell\n", id);
-#endif
-    printf("I am %d landcell\n", id);
+    // printf("I am %d landcell\n", id);
     // Init a struct of landcell
     struct landcell *land;
     land = (struct landcell *) malloc(sizeof(struct landcell));
     // Do as landcell's do
-//    landcellWorkerCode(land, id);
+    // landcellWorkerCode(land, id);
     int i, switch_update = 0, fullflag = 0, myRank;
-    int printflag = 0;
+    // int printflag = 0;
     MPI_Comm_rank(MPI_COMM_WORLD, &myRank);
 
     land->id = id;
@@ -41,7 +38,7 @@ void workerLandCode(int id) {
         land->thisMonthInfect[i] = 0;
     }
     land->infectionLevel = 0;
-    printf("I am a land, my id = %d, my rank is %d\n", land->id, myRank);
+    // printf("I am a land, my id = %d, my rank is %d\n", land->id, myRank);
     int workerStatus = 0;
     int months = 0;
     while (!workerStatus) {
@@ -58,7 +55,7 @@ void workerLandCode(int id) {
             if (count == 1) { // 收到来自clocsk的信息，更新populationInflux和infectionLevel的值
                 MPI_Recv(&switch_update, 1, MPI_INT, status.MPI_SOURCE, 0, MPI_COMM_WORLD, MPI_STATUS_IGNORE);
                 months++;
-                printflag = 0;
+                // printflag = 0;
 //                printf("Land %d Receive update command from %d.\n", myRank, status.MPI_SOURCE);
                 land->populationInflux = 0;
                 land->infectionLevel = 0;
@@ -86,13 +83,13 @@ void workerLandCode(int id) {
                 for (i = 0; i < 2; i++) {
                     land->infectionLevel += land->thisMonthInfect[i];
                 }
-                printf("No. %d land receive update command %d. My population is %d, My infection is %d\n", land->id, switch_update, land->populationInflux, land->infectionLevel);
+                printf("No. %d land. My population is %d, My infection is %d\n", land->id, land->populationInflux, land->infectionLevel);
 
             } else if (count == 2) { // 收到来自松鼠的信息，发送回自己的populationInflux和infectionLevel，并++
-                if (!printflag) {
-                    printf("Now is month %d~~~%d~~\n\n", months, myRank);
-                    printflag = 1;
-                }
+                // if (!printflag) {
+                //     // printf("Now is month %d~~~%d~~\n\n", months, myRank);
+                //     printflag = 1;
+                // }
 
                 int squirrelInfo[2] = {0};
                 int landInfo[2] = {land->populationInflux, land->infectionLevel};
@@ -110,16 +107,12 @@ void workerLandCode(int id) {
 
         }
         workerStatus = shouldWorkerStop();
-        if (workerStatus == 1) printf("Now landcell %d workerStatus is %d.\n", id, workerStatus);
+        // if (workerStatus == 1) printf("Now landcell %d workerStatus is %d.\n", id, workerStatus);
 //        MPI_Request_free(&req);
     }
 }
 
 void workerClockCode(int id) {
-#ifdef DEBUG
-    printf("I am %d clock\n", id);
-#endif
-    printf("I am %d clock\n", id);
     // Do as clock's do
 //    clockWorkerCode();
     int months = MONTH, i, switch_update = 1, myRank;
@@ -128,7 +121,7 @@ void workerClockCode(int id) {
     MPI_Request req;
     while (months) {
         sleep(1);
-        printf("------------This is month %d----------\n", MONTH-months);
+        printf("------------This is month %d----------\n", MONTH-months+1);
         for (i = 0; i < landcount; i++) {
             MPI_Isend(&switch_update, 1, MPI_INT, i + 1, 0, MPI_COMM_WORLD, &req);
 //            printf("Now clock send update message to landcell %d.\n", i + 1);
@@ -164,13 +157,13 @@ void workerSquirrelCode(int id) {
         if ((LANDCELL + 3) < myRank && myRank < (LANDCELL + 8)) {
             squirrel->whetherInfect = 1;
         }
-        printf("I am %d squirrel, am I healthy? %d\n", id, squirrel->whetherInfect);
+        // printf("I am %d squirrel, am I healthy? %d\n", id, squirrel->whetherInfect);
     } else {
         MPI_Recv(position, 2, MPI_FLOAT, parentId, 1, MPI_COMM_WORLD, &status); // 接收父松鼠的位置
         squirrel->x = position[0];
         squirrel->y = position[1];
         squirrel->whetherInfect = 0;
-        printf("Hi! I am Squirrel %d, my parent is %d.\n", myRank, parentId);
+        // printf("Hi! I am Squirrel %d, my parent is %d.\n", myRank, parentId);
     }
     squirrel->step_total = 0;
     squirrel->step_50 = 0;
@@ -206,7 +199,7 @@ void workerSquirrelCode(int id) {
         int info_landcell[2] = {0}; // 【0】是populationInflux，【1】是infectionLevel
         workerStatus = shouldWorkerStop();
         if (workerStatus == 1) {
-            printf("Now squirrel %d workerStatus is %d. It jumps %d. Catch disease: %d\n", id, workerStatus, squirrel->step_total, squirrel->switch_infect);
+            printf("This is squirrel %d. It jumps %d.\n", id, squirrel->step_total);
             break;
         }
     //        printf("Squirrel %d is waiting.\n", myRank);
@@ -224,7 +217,7 @@ void workerSquirrelCode(int id) {
                 // 生孩子
                 int childPid = startWorkerProcess();
                 int child_info[2] = {3, childPid};
-                printf("Squirrel %d have a baby %d.\n", myRank, childPid);
+                // printf("Squirrel %d have a baby %d.\n", myRank, childPid);
                 MPI_Isend(child_info, 2, MPI_INT, childPid, 0, MPI_COMM_WORLD, &req);
                 MPI_Isend(position, 2, MPI_FLOAT, childPid, 1, MPI_COMM_WORLD, &req);
             }
@@ -240,7 +233,7 @@ void workerSquirrelCode(int id) {
             if (catchDisease) {
                 squirrel->whetherInfect = 1;
                 squirrel->switch_infect = 1;
-                printf("! ! ! ! ! ! Squirrel %d start to catch disease.\n", id);
+                // printf("! ! ! ! ! ! Squirrel %d start to catch disease.\n", id);
             }
         }
         else if (squirrel->whetherInfect == 1) {
@@ -252,7 +245,7 @@ void workerSquirrelCode(int id) {
                 whetherDie = willDie(&seed);
     //                printf("I am squirrel %d, Will I die?????????? Answer: %d\n", myRank, whetherDie);
                 if (whetherDie) { // 如果被判死刑
-                    printf("Now squirrel %d is dead.\n", myRank);
+                    // printf("Now squirrel %d is dead.\n", myRank);
                     nosleep = workerSleep();
                 }
             }
@@ -266,7 +259,7 @@ void workerSquirrelCode(int id) {
 
     //        MPI_Request_free(&req);
     }
-    printf("Squirrel %d out.\n", id);
+    // printf("Squirrel %d out.\n", id);
 }
 
 void workerCode() {
@@ -312,7 +305,7 @@ void actorCode() {
     // Init the world
     initWorld();
     
-    printf("Init landcell success!\n Init clock success!\n Init squirrel success!\n");\
+    // printf("Init landcell success!\n Init clock success!\n Init squirrel success!\n");
     // MPI_Request_free(landrequest);
     // MPI_Request_free(squirrelrequest);
     // MPI_Request_free(&clockrequest);

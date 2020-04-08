@@ -1,10 +1,11 @@
 #!/bin/bash --login
 
 # PBS job options (name, compute nodes, job time)
-#PBS -N mergesort
+#PBS -N squirrel
+
 #PBS -l select=3:ncpus=36
 #PBS -l place=scatter:excl
-#PBS -l walltime=00:20:00
+#PBS -l walltime=00:9:00
 
 #PBS -A d171-s1951167
 
